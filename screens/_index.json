@@ -1,0 +1,63 @@
+{
+  "hinweis": "Technische Datei für den Figma-Sync",
+  "screens": {
+    "6:62": {
+      "id": "6:62",
+      "name": "Album View",
+      "flow": "live page",
+      "seite": "live page",
+      "status": "beschlossen",
+      "pfad": "screens/live-page/album-view.md",
+      "link": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=6-62",
+      "texte": [
+        "1:20",
+        "The Beatles",
+        "Album",
+        "2000",
+        "Love Me Do - Mono / Remastered",
+        "From Me to You - Mono / Remastered",
+        "She Loves You - Mono / Remastered",
+        "I Want To Hold Your Hand - Remastered 2015",
+        "The B",
+        "BEATSPILL+",
+        "1(Remastered)",
+        "Search",
+        "Your Library",
+        "Home"
+      ],
+      "fingerabdruck": "487731be04d3c3a1"
+    },
+    "6:234": {
+      "id": "6:234",
+      "name": "Home ",
+      "flow": "live page",
+      "seite": "live page",
+      "status": "beschlossen",
+      "pfad": "screens/live-page/home.md",
+      "link": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=6-234",
+      "texte": [
+        "Recently played",
+        "Your 2021 in review",
+        "Editor’s picks",
+        "The B",
+        "Search",
+        "#SPOTIFYWRAPPED",
+        "Ed Sheeran, Big Sean, Juice WRLD, Post Malone",
+        "Mitski, Tame Impala, Glass Animals, Charli XCX",
+        "BEATSPILL+",
+        "Your Library",
+        "Home",
+        "asdsadsadadasadsadsadasdsadasdsadasdsadsadasdadadadasdasdasdsa",
+        "From Me to You - Mono / Remastered",
+        "Your Top Songs 2021",
+        "Your Artists Revealed",
+        "1(Remastered)",
+        "Lana Del Rey",
+        "Marvin Gaye",
+        "Indie Pop",
+        "1:20"
+      ],
+      "fingerabdruck": "4b1e7345c2cb78d2"
+    }
+  }
+}
