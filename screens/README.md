@@ -6,7 +6,6 @@ Quelle: [Figma-Datei](https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC) · St
 | Flow | Position | Screen | Status | Kurzbeschreibung |
 |---|---|---|---|---|
 | Foundations & Komponenten | 1 von 1 | [Komponenten-Bibliothek](foundations-komponenten/komponenten-bibliothek.md) | beschlossen | Übersicht über die UI-Komponenten einer Komponenten-Bibliothek bzw. eines Designsystems. Der Screen zeigt Beispiele für Icons, Buttons, Badges, Navigation, Segmented Controls, Eingabefelder und Quick Actions. |
-| livePage | 1 von 1 | [Frame 1](livepage/frame-1.md) | beschlossen | Es ist kein sichtbarer Inhalt vorhanden. Der Screen wirkt leer bzw. ohne erkennbares UI-Element. |
 | Screens – Strom-App | 1 von 5 | [01 – Übersicht](screens-strom-app/01-uebersicht.md) | beschlossen | Start-/Übersichtsseite der Strom-App mit aktuellem Verbrauch, nächstem Abschlag und Schnellzugriffen auf wichtige Bereiche. Unten ist eine Tab-Bar für die Hauptnavigation sichtbar. |
 | Screens – Strom-App | 2 von 5 | [02 – Verbrauch](screens-strom-app/02-verbrauch.md) | beschlossen | Übersichtsseite zum Stromverbrauch mit Zeitfilter (Woche/Monat/Jahr), Kennzahl für den aktuellen Zeitraum und Haushaltsvergleich. Unten ist die Tab-Navigation sichtbar, der Bereich „Verbrauch“ ist aktiv. |
 | Screens – Strom-App | 3 von 5 | [03 – Zählerstand erfassen](screens-strom-app/03-zaehlerstand-erfassen.md) | beschlossen | Screen zum Erfassen und Übermitteln eines Strom-Zählerstands. Die Nutzerin kann den Zähler scannen oder den Wert manuell eingeben und ein Ablesedatum sehen bzw. wählen. |
