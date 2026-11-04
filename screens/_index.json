@@ -1,0 +1,1219 @@
+{
+  "hinweis": "Technische Datei für den Figma-Sync und den Frage-Workflow. Bitte nicht von Hand bearbeiten.",
+  "stand": "2026-11-04",
+  "screens": {
+    "20:1258": {
+      "id": "20:1258",
+      "name": "Frame 1",
+      "flow": "livePage",
+      "seite": "livePage",
+      "status": "beschlossen",
+      "pfad": "screens/livepage/frame-1.md",
+      "bildPfad": "screens/livepage/frame-1.png",
+      "link": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=20-1258",
+      "devModeLink": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=20-1258&m=dev",
+      "texte": [],
+      "komponenten": [],
+      "klickbar": [],
+      "fingerabdruck": "55fe1a5c4eaa441b",
+      "weiterZu": [],
+      "kommtVon": [],
+      "position": "1 von 1",
+      "flowScreens": [
+        "Frame 1"
+      ],
+      "ki": {
+        "kurzbeschreibung": "Es ist kein sichtbarer Inhalt vorhanden. Der Screen wirkt leer bzw. ohne erkennbares UI-Element.",
+        "aenderung": "",
+        "stichworte": [
+          "leerer Screen",
+          "Frame 1",
+          "livePage",
+          "ohne Inhalt",
+          "ohne Texte",
+          "ohne Komponenten"
+        ],
+        "cx": {
+          "journey_moment": "vermutlich ein technischer oder leerer Zustand innerhalb der livePage",
+          "kundenerlebnis": "Die Kundin sieht keine sichtbaren Inhalte oder Interaktionsmöglichkeiten.",
+          "tonalitaet": "keine Texte sichtbar",
+          "moegliche_reibungspunkte": [
+            "vermutlich wirkt der Screen unvollständig oder geladen ohne Inhalt",
+            "vermutlich ist unklar, ob der Inhalt noch folgt oder ein Fehler vorliegt"
+          ]
+        },
+        "re": {
+          "aktionen": [],
+          "eingabefelder": [],
+          "zustaende_sichtbar": [
+            "leer"
+          ],
+          "zustaende_fehlend": [
+            "Ladezustand",
+            "Fehlerzustand",
+            "Inhaltszustand"
+          ]
+        },
+        "ba": {
+          "angezeigte_daten": [],
+          "vermutete_regeln": [
+            "vermutlich wird hier abhängig vom Datenstatus kein Inhalt gerendert"
+          ]
+        },
+        "qa": {
+          "testfaelle": [
+            "Screen ohne sichtbare Inhalte wird korrekt dargestellt",
+            "Leerer Zustand ohne Crash oder Layoutfehler",
+            "Prüfen, ob bei fehlenden Daten ein definierter Empty State erscheinen sollte"
+          ]
+        },
+        "dev": {
+          "datenfelder": [],
+          "hinweise": [
+            "Kein sichtbares UI laut Figma-Daten",
+            "Screen enthält keine klickbaren Elemente oder Texte"
+          ]
+        },
+        "analytics": {
+          "events": [],
+          "funnel_position": "1 von 1 im Flow livePage"
+        },
+        "offene_fragen": [
+          "Soll auf diesem Screen ein Empty State, Loading oder Fehlerhinweis erscheinen?",
+          "Ist der leere Zustand beabsichtigt oder fehlen Inhalte im Design?"
+        ]
+      },
+      "bildSha": "10fe4f5b2d00e62ed45505d081318ac58a2fc862",
+      "zuletztGeaendert": "2026-11-04",
+      "letzteAenderung": "Screen neu angelegt."
+    },
+    "20:1260": {
+      "id": "20:1260",
+      "name": "Komponenten-Bibliothek",
+      "flow": "Foundations & Komponenten",
+      "seite": "livePage",
+      "status": "beschlossen",
+      "pfad": "screens/foundations-komponenten/komponenten-bibliothek.md",
+      "bildPfad": "screens/foundations-komponenten/komponenten-bibliothek.png",
+      "link": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=20-1260",
+      "devModeLink": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=20-1260&m=dev",
+      "texte": [
+        "Icons",
+        "Basis",
+        "Button",
+        "Badge",
+        "Navigation",
+        "9:41",
+        "Titel",
+        "Untertitel",
+        "Label",
+        "Übersicht",
+        "Verbrauch",
+        "Zähler",
+        "Vertrag",
+        "Profil",
+        "Inhalte & Eingaben",
+        "Segment",
+        "Woche",
+        "Monat",
+        "Jahr",
+        "Wert",
+        "Einheit",
+        "Hinweis",
+        "Aktion"
+      ],
+      "komponenten": [
+        "Icon/Home",
+        "Icon/Chart",
+        "Icon/Meter",
+        "Icon/Document",
+        "Icon/User",
+        "Icon/Bolt",
+        "Icon/ChevronRight",
+        "Icon/ChevronLeft",
+        "Icon/Camera",
+        "Icon/Euro",
+        "Icon/Leaf",
+        "Icon/Bell",
+        "Icon/Info",
+        "Icon/Download",
+        "Icon/Plus",
+        "Icon/Minus",
+        "Icon/Calendar",
+        "Icon/TrendDown",
+        "Icon/Check",
+        "Icon/MapPin",
+        "Icon Button",
+        "Status Bar",
+        "Header/Detail",
+        "Header/Main",
+        "Tab Bar",
+        "Tab Item",
+        "List Row",
+        "Segmented Control",
+        "Segment",
+        "Quick Action"
+      ],
+      "klickbar": [],
+      "fingerabdruck": "e80d35a6b0b62c81",
+      "weiterZu": [],
+      "kommtVon": [],
+      "position": "1 von 1",
+      "flowScreens": [
+        "Komponenten-Bibliothek"
+      ],
+      "ki": {
+        "kurzbeschreibung": "Übersicht über die UI-Komponenten einer Komponenten-Bibliothek bzw. eines Designsystems. Der Screen zeigt Beispiele für Icons, Buttons, Badges, Navigation, Segmented Controls, Eingabefelder und Quick Actions.",
+        "aenderung": "",
+        "stichworte": [
+          "Komponenten-Bibliothek",
+          "Designsystem",
+          "Icons",
+          "Button",
+          "Badge",
+          "Navigation",
+          "Segmented Control",
+          "Eingabefeld"
+        ],
+        "cx": {
+          "journey_moment": "vermutlich interne Design-/Entwicklungsphase, kein Kund:innen-Journey-Moment",
+          "kundenerlebnis": "Keine direkte Kund:innen-Interaktion erkennbar; der Screen dient vermutlich zur Abstimmung und Nutzung von UI-Komponenten.",
+          "tonalitaet": "neutral, sachlich, beispielhaft",
+          "moegliche_reibungspunkte": [
+            "vermutlich ohne erklärenden Kontext schwer verständlich, wofür die Komponenten im Produkt genutzt werden",
+            "vermutlich sind mehrere Zustände derselben Komponente dargestellt, ohne Beschriftung der Unterschiede"
+          ]
+        },
+        "re": {
+          "aktionen": [
+            "keine sichtbaren Nutzeraktionen",
+            "vermutlich Komponenten ansehen und für andere Screens referenzieren"
+          ],
+          "eingabefelder": [],
+          "zustaende_sichtbar": [
+            "Normalzustand bei Buttons, Badges und Navigation",
+            "vermutlich Fokus-/Aktivzustand bei ausgewählten Navigationselementen",
+            "vermutlich deaktivierte bzw. inaktive Zustände bei einzelnen Tab-Elementen"
+          ],
+          "zustaende_fehlend": [
+            "Fehlerzustand für Eingabefelder",
+            "Ladezustand",
+            "Disabled-Zustände für weitere Komponenten",
+            "Leerzustände"
+          ]
+        },
+        "ba": {
+          "angezeigte_daten": [
+            "Icons aus dem Designsystem",
+            "Buttons in drei Varianten",
+            "Badges in mehreren Farbvarianten",
+            "Navigation mit Übersicht, Verbrauch, Zähler, Vertrag, Profil",
+            "Segmented Control mit Woche, Monat, Jahr",
+            "Eingabefeld mit Label, Wert, Einheit und Hinweis",
+            "Quick Action mit Icon und Bezeichnung Aktion"
+          ],
+          "vermutete_regeln": [
+            "vermutlich werden hier Standardzustände und Varianten von Designsystem-Komponenten dokumentiert",
+            "vermutlich ist die Tab Bar für die Hauptnavigation gedacht",
+            "vermutlich markieren Icon/Farbe/Text unterschiedliche Status oder Kategorien"
+          ]
+        },
+        "qa": {
+          "testfaelle": [
+            "Prüfen, ob alle sichtbaren Komponenten korrekt gerendert werden",
+            "Prüfen, ob die Icons dem Figma-Set entsprechen",
+            "Prüfen, ob aktive und inaktive Zustände visuell unterscheidbar sind",
+            "Prüfen, ob Button-, Badge- und Tab-Varianten konsistent dargestellt werden",
+            "Prüfen, ob Eingabefeld-Elemente Label, Wert, Einheit und Hinweis korrekt anzeigen",
+            "Prüfen, ob keine klickbaren Elemente fälschlich Navigation auslösen"
+          ]
+        },
+        "dev": {
+          "datenfelder": [
+            "Komponentenname",
+            "Variante/Zustand",
+            "Icon-Name",
+            "Label-Text",
+            "Titel-Text",
+            "Untertitel-Text",
+            "Wert-Text",
+            "Einheit-Text",
+            "Hinweis-Text",
+            "Tab-Name"
+          ],
+          "hinweise": [
+            "Screen wirkt wie eine statische Bibliotheks-/Referenzansicht",
+            "Komponenten sollten als wiederverwendbare UI-Bausteine umgesetzt werden",
+            "Mehrere Zustände derselben Komponente sollten als Varianten modelliert werden"
+          ]
+        },
+        "analytics": {
+          "events": [],
+          "funnel_position": "vermutlich kein Produkt-Funnel, sondern interne Foundations-/Komponenten-Ansicht"
+        },
+        "offene_fragen": [
+          "Ist der Screen nur für interne Nutzung oder auch für produktive App-Inhalte gedacht?",
+          "Sollen die Komponenten auf dem Screen interaktiv sein oder nur dokumentiert werden?",
+          "Welche Zustände gelten für die einzelnen Komponenten genau?",
+          "Welche Bedeutung haben die unterschiedlichen Badge-Farben?",
+          "Sind die sichtbaren Labels und Texte nur Platzhalter oder final?"
+        ]
+      },
+      "bildSha": "4bcaa0d4c1b17c0fecdacb87f8aac3b9dfd67661",
+      "zuletztGeaendert": "2026-11-04",
+      "letzteAenderung": "Screen neu angelegt."
+    },
+    "20:1350": {
+      "id": "20:1350",
+      "name": "01 – Übersicht",
+      "flow": "Screens – Strom-App",
+      "seite": "livePage",
+      "status": "beschlossen",
+      "pfad": "screens/screens-strom-app/01-uebersicht.md",
+      "bildPfad": "screens/screens-strom-app/01-uebersicht.png",
+      "link": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=20-1350",
+      "devModeLink": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=20-1350&m=dev",
+      "texte": [
+        "9:41",
+        "Mittwoch, 4. November",
+        "Hallo, Alex",
+        "Verbrauch im November",
+        "−8 % zum Vormonat",
+        "186",
+        "kWh",
+        "Stand heute, 08:12 Uhr · Smart Meter",
+        "Prognose 2026: 2.140 kWh",
+        "Vorjahr: 2.310 kWh",
+        "Nächster Abschlag",
+        "78,00 €",
+        "am 15.11. · SEPA-Lastschrift",
+        "Passt",
+        "Anpassen",
+        "Schnellzugriff",
+        "Zählerstand",
+        "Abschlag",
+        "Rechnungen",
+        "Tarif & Vertrag",
+        "Übersicht",
+        "Verbrauch",
+        "Zähler",
+        "Vertrag",
+        "Profil"
+      ],
+      "komponenten": [
+        "Status Bar",
+        "Header/Main",
+        "Icon Button",
+        "Icon/Bell",
+        "Badge",
+        "Icon/Euro",
+        "Icon/ChevronRight",
+        "Quick Action",
+        "Icon/Meter",
+        "Icon/Document",
+        "Icon/Bolt",
+        "Tab Bar",
+        "Tab Item",
+        "Icon/Home",
+        "Icon/Chart",
+        "Icon/User"
+      ],
+      "klickbar": [],
+      "fingerabdruck": "e3b98c8ffb6eaa5a",
+      "weiterZu": [],
+      "kommtVon": [],
+      "position": "1 von 5",
+      "flowScreens": [
+        "01 – Übersicht",
+        "02 – Verbrauch",
+        "03 – Zählerstand erfassen",
+        "04 – Abschlag anpassen",
+        "05 – Vertrag"
+      ],
+      "ki": {
+        "kurzbeschreibung": "Start-/Übersichtsseite der Strom-App mit aktuellem Verbrauch, nächstem Abschlag und Schnellzugriffen auf wichtige Bereiche. Unten ist eine Tab-Bar für die Hauptnavigation sichtbar.",
+        "aenderung": "",
+        "stichworte": [
+          "Übersicht",
+          "Verbrauch",
+          "Abschlag",
+          "Schnellzugriff",
+          "Zählerstand",
+          "Rechnungen",
+          "Tarif & Vertrag",
+          "Tab-Bar"
+        ],
+        "cx": {
+          "journey_moment": "Einstieg nach dem App-Start bzw. nach dem Login",
+          "kundenerlebnis": "Die Kundin sieht auf einen Blick den aktuellen Verbrauch, eine Prognose und den nächsten Abschlag. Zusätzlich gibt es direkte Einstiege zu häufig genutzten Funktionen.",
+          "tonalitaet": "sachlich, informativ, übersichtlich",
+          "moegliche_reibungspunkte": [
+            "Die Bedeutung von \"Passt\" und \"Anpassen\" ist ohne Kontext eventuell nicht sofort klar.",
+            "\"Prognose 2026\" könnte erklärungsbedürftig sein, weil unklar ist, wie sie berechnet wird.",
+            "\"Smart Meter\" setzt vermutlich voraus, dass die Kundin mit dem Begriff etwas anfangen kann."
+          ]
+        },
+        "re": {
+          "aktionen": [
+            "Benachrichtigungen über das Glocken-Icon öffnen",
+            "Über \"Anpassen\" den Abschlag bearbeiten",
+            "Über die Schnellzugriffe zu Zählerstand, Abschlag, Rechnungen oder Tarif & Vertrag springen",
+            "Über die Tab-Bar zu Übersicht, Verbrauch, Zähler, Vertrag oder Profil wechseln"
+          ],
+          "eingabefelder": [],
+          "zustaende_sichtbar": [
+            "Normalzustand",
+            "aktive Tab-Bar auf \"Übersicht\"",
+            "Badge am Benachrichtigungs-Icon"
+          ],
+          "zustaende_fehlend": [
+            "Ladezustand",
+            "Fehlerzustand für Verbrauchsdaten",
+            "Leerzustand für keine Verbrauchs- oder Abschlagsdaten",
+            "Bearbeitungs-/Bestätigungszustand für \"Anpassen\""
+          ]
+        },
+        "ba": {
+          "angezeigte_daten": [
+            "Aktuelles Datum: Mittwoch, 4. November",
+            "Begrüßung: Hallo, Alex",
+            "Verbrauch im November: 186 kWh",
+            "Vergleich zum Vormonat: −8 %",
+            "Stand heute, 08:12 Uhr · Smart Meter",
+            "Prognose 2026: 2.140 kWh",
+            "Vorjahr: 2.310 kWh",
+            "Nächster Abschlag: 78,00 €",
+            "Fälligkeit: am 15.11.",
+            "Zahlungsart: SEPA-Lastschrift"
+          ],
+          "vermutete_regeln": [
+            "Der Verbrauch wird als Monatswert mit Vergleich zum Vormonat dargestellt.",
+            "Die Prognose und der Vorjahreswert beziehen sich vermutlich auf den Jahresverbrauch.",
+            "Wenn ein nächster Abschlag vorhanden ist, wird ein Status wie \"Passt\" angezeigt und eine Anpassung angeboten."
+          ]
+        },
+        "qa": {
+          "testfaelle": [
+            "Übersicht lädt mit allen sichtbaren Kennzahlen und Texten.",
+            "Badge am Benachrichtigungs-Icon wird korrekt angezeigt.",
+            "Aktiver Tab \"Übersicht\" ist optisch hervorgehoben.",
+            "Schnellzugriff-Kacheln sind sichtbar und getrennt anklickbar.",
+            "Anzeige von Verbrauch, Vergleichswert, Prognose und Vorjahreswert ist vollständig.",
+            "Anzeige des nächsten Abschlags inkl. Betrag, Datum und Zahlungsart ist vollständig."
+          ]
+        },
+        "dev": {
+          "datenfelder": [
+            "currentDate",
+            "userName",
+            "monthlyConsumptionKwh",
+            "comparisonToPreviousMonthPercent",
+            "measurementTimestamp",
+            "meterType",
+            "annualForecastKwh",
+            "previousYearKwh",
+            "nextInstallmentAmount",
+            "nextInstallmentDueDate",
+            "paymentMethod",
+            "notificationBadgeCount"
+          ],
+          "hinweise": [
+            "Komponenten aus dem Designsystem verwenden: Status Bar, Header/Main, Quick Action, Tab Bar.",
+            "Währung und kWh-Einheiten müssen korrekt formatiert werden.",
+            "Die Schnellzugriffe und die Tab-Bar sollten klare Navigationsziele haben, auch wenn im Figma-Export keine Ziele hinterlegt sind.",
+            "Das Badge am Glocken-Icon benötigt eine Quelle für ungelesene Benachrichtigungen."
+          ]
+        },
+        "analytics": {
+          "events": [
+            "view_uebersicht",
+            "click_benachrichtigung",
+            "click_anpassen_abschlag",
+            "click_quick_action_zaehlerstand",
+            "click_quick_action_abschlag",
+            "click_quick_action_rechnungen",
+            "click_quick_action_tarif_vertrag",
+            "click_tab_uebersicht",
+            "click_tab_verbrauch",
+            "click_tab_zaehler",
+            "click_tab_vertrag",
+            "click_tab_profil"
+          ],
+          "funnel_position": "Startscreen / Hauptnavigation nach dem Einstieg in die App"
+        },
+        "offene_fragen": [
+          "Wofür steht \"Passt\" fachlich genau?",
+          "Welche Zielseiten öffnen die Schnellzugriffe und die Tab-Bar konkret?",
+          "Ist \"Prognose 2026\" der Jahresverbrauch oder ein anderer Zeitraum?",
+          "Ist das Badge am Glocken-Icon immer sichtbar oder abhängig von neuen Nachrichten?"
+        ]
+      },
+      "bildSha": "8ab71316c32b4f020a9f1c6f7cf1ad28d4b44ebf",
+      "zuletztGeaendert": "2026-11-04",
+      "letzteAenderung": "Screen neu angelegt."
+    },
+    "20:1390": {
+      "id": "20:1390",
+      "name": "02 – Verbrauch",
+      "flow": "Screens – Strom-App",
+      "seite": "livePage",
+      "status": "beschlossen",
+      "pfad": "screens/screens-strom-app/02-verbrauch.md",
+      "bildPfad": "screens/screens-strom-app/02-verbrauch.png",
+      "link": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=20-1390",
+      "devModeLink": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=20-1390&m=dev",
+      "texte": [
+        "9:41",
+        "Zählpunkt •••• 4821",
+        "Verbrauch",
+        "Woche",
+        "Monat",
+        "Jahr",
+        "November 2026 · bis heute",
+        "186",
+        "kWh",
+        "≈ 59,30 € Stromkosten",
+        "−8 %",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Okt",
+        "Nov",
+        "Haushaltsvergleich",
+        "Ähnliche 2-Personen-Haushalte, letzte 12 Monate",
+        "Dein Haushalt",
+        "2.140 kWh",
+        "Ø Vergleichshaushalt",
+        "2.500 kWh",
+        "Rund 14 % unter dem Durchschnitt",
+        "Übersicht",
+        "Zähler",
+        "Vertrag",
+        "Profil"
+      ],
+      "komponenten": [
+        "Status Bar",
+        "Header/Main",
+        "Icon Button",
+        "Icon/Calendar",
+        "Segmented Control",
+        "Segment",
+        "Badge",
+        "Icon/TrendDown",
+        "Tab Bar",
+        "Tab Item",
+        "Icon/Home",
+        "Icon/Chart",
+        "Icon/Meter",
+        "Icon/Document",
+        "Icon/User"
+      ],
+      "klickbar": [],
+      "fingerabdruck": "c0023f72cbd968fb",
+      "weiterZu": [],
+      "kommtVon": [],
+      "position": "2 von 5",
+      "flowScreens": [
+        "01 – Übersicht",
+        "02 – Verbrauch",
+        "03 – Zählerstand erfassen",
+        "04 – Abschlag anpassen",
+        "05 – Vertrag"
+      ],
+      "ki": {
+        "kurzbeschreibung": "Übersichtsseite zum Stromverbrauch mit Zeitfilter (Woche/Monat/Jahr), Kennzahl für den aktuellen Zeitraum und Haushaltsvergleich. Unten ist die Tab-Navigation sichtbar, der Bereich „Verbrauch“ ist aktiv.",
+        "aenderung": "",
+        "stichworte": [
+          "Verbrauch",
+          "Stromkosten",
+          "Monat",
+          "Haushaltsvergleich",
+          "Zählpunkt",
+          "Diagramm",
+          "Tab Bar",
+          "Zeitfilter"
+        ],
+        "cx": {
+          "journey_moment": "Kundin schaut ihren aktuellen Stromverbrauch und den Vergleich zum Durchschnitt an",
+          "kundenerlebnis": "Die Nutzerin sieht ihren Verbrauch für einen gewählten Zeitraum und kann den Verlauf grob über Monate einordnen. Zusätzlich bekommt sie eine Einordnung im Haushaltsvergleich.",
+          "tonalitaet": "sachlich, informativ, leicht unterstützend",
+          "moegliche_reibungspunkte": [
+            "Die Bedeutung von „bis heute“ ist aus dem Screen allein nicht ganz klar, vermutlich wird der laufende Monat anteilig angezeigt.",
+            "Die Kennzahl „−8 %“ ist ohne Vergleichsbasis nicht vollständig erklärbar, vermutlich bezieht sie sich auf eine Veränderung zum vorherigen Zeitraum.",
+            "Der Haushaltsvergleich nennt „ähnliche 2-Personen-Haushalte“, aber Kriterien für „ähnlich“ sind nicht sichtbar."
+          ]
+        },
+        "re": {
+          "aktionen": [
+            "Zeitraum über Segmented Control wechseln: Woche, Monat, Jahr",
+            "vermutlich im Diagramm einen Monat auswählen oder ablesen",
+            "über Tab Bar zu Übersicht, Zähler, Vertrag oder Profil wechseln"
+          ],
+          "eingabefelder": [],
+          "zustaende_sichtbar": [
+            "Normalzustand",
+            "Monatsansicht aktiv",
+            "Badge/Highlight für aktuelle Veränderung",
+            "Vergleichskarte mit Balkenanzeige"
+          ],
+          "zustaende_fehlend": [
+            "Ladezustand",
+            "Fehlerzustand bei fehlenden Verbrauchsdaten",
+            "Leerzustand ohne Vergleichsdaten",
+            "Detailzustand für ausgewählte Diagrammpunkte"
+          ]
+        },
+        "ba": {
+          "angezeigte_daten": [
+            "Zählpunkt: •••• 4821",
+            "Zeitraum: November 2026 · bis heute",
+            "Verbrauch: 186 kWh",
+            "Stromkosten: ≈ 59,30 €",
+            "Veränderung: −8 %",
+            "Monate im Diagramm: Jun, Jul, Aug, Sep, Okt, Nov",
+            "Haushaltsvergleich: Ähnliche 2-Personen-Haushalte, letzte 12 Monate",
+            "Dein Haushalt: 2.140 kWh",
+            "Ø Vergleichshaushalt: 2.500 kWh",
+            "Einordnung: Rund 14 % unter dem Durchschnitt"
+          ],
+          "vermutete_regeln": [
+            "Der Zählpunkt wird teilweise maskiert angezeigt.",
+            "Der aktive Zeitraum steuert die Kennzahlen und das Diagramm.",
+            "Die Kosten sind vermutlich aus dem Verbrauch berechnet.",
+            "Der Vergleich bezieht sich vermutlich auf die letzten 12 Monate.",
+            "Die Prozentangabe unter dem Diagramm und die Vergleichseinordnung sind vermutlich automatisch aus den Verbrauchsdaten abgeleitet."
+          ]
+        },
+        "qa": {
+          "testfaelle": [
+            "Prüfen, ob der Screen im Zustand „Monat“ startet und der Tab „Verbrauch“ aktiv markiert ist.",
+            "Prüfen, ob bei Auswahl von Woche/Monat/Jahr die sichtbaren Inhalte wechseln.",
+            "Prüfen, ob der Zählpunkt maskiert dargestellt wird.",
+            "Prüfen, ob Verbrauch, Kosten und Prozentbadge korrekt angezeigt werden.",
+            "Prüfen, ob das Diagramm die Monate Jun bis Nov in korrekter Reihenfolge zeigt.",
+            "Prüfen, ob der Haushaltsvergleich mit beiden Balken und der Textzeile dargestellt wird.",
+            "Prüfen, ob die Bottom-Navigation alle fünf Tabs zeigt und der aktive Tab visuell hervorgehoben ist."
+          ]
+        },
+        "dev": {
+          "datenfelder": [
+            "masked_meter_point_id / Zählpunktanzeige",
+            "selected_time_range",
+            "period_label",
+            "consumption_kwh",
+            "estimated_cost_eur",
+            "change_percent",
+            "chart_labels",
+            "chart_values",
+            "comparison_title",
+            "comparison_subtitle",
+            "household_consumption_kwh",
+            "comparison_household_kwh",
+            "comparison_percent_text",
+            "active_bottom_tab"
+          ],
+          "hinweise": [
+            "Segmented Control und Tab Bar stammen aus dem Designsystem.",
+            "Diagramm und Vergleichskarte benötigen strukturierte Daten für Labels und Werte.",
+            "Der aktive Monat im Diagramm ist visuell hervorgehoben.",
+            "Für die Kostenanzeige wird ein geschätzter oder berechneter Wert benötigt, die Berechnungslogik ist im Screen nicht sichtbar."
+          ]
+        },
+        "analytics": {
+          "events": [
+            "klick_zeitraum_woche",
+            "klick_zeitraum_monat",
+            "klick_zeitraum_jahr",
+            "klick_tab_uebersicht",
+            "klick_tab_zaehler",
+            "klick_tab_vertrag",
+            "klick_tab_profil"
+          ],
+          "funnel_position": "2 von 5 im Flow „Strom-App“, Bereich Verbrauch"
+        },
+        "offene_fragen": [
+          "Was genau bedeutet „bis heute“ fachlich?",
+          "Wofür steht die Veränderung „−8 %“ konkret?",
+          "Ist das Diagramm interaktiv oder nur zur Anzeige gedacht?",
+          "Welche Regeln bestimmen den Haushaltsvergleich und die Formulierung „ähnliche 2-Personen-Haushalte“?",
+          "Gibt es zusätzliche Zustände für fehlende oder unvollständige Verbrauchsdaten?"
+        ]
+      },
+      "bildSha": "b9c91ab2bfe62a856418ca11f88257967b28ee96",
+      "zuletztGeaendert": "2026-11-04",
+      "letzteAenderung": "Screen neu angelegt."
+    },
+    "20:1444": {
+      "id": "20:1444",
+      "name": "03 – Zählerstand erfassen",
+      "flow": "Screens – Strom-App",
+      "seite": "livePage",
+      "status": "beschlossen",
+      "pfad": "screens/screens-strom-app/03-zaehlerstand-erfassen.md",
+      "bildPfad": "screens/screens-strom-app/03-zaehlerstand-erfassen.png",
+      "link": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=20-1444",
+      "devModeLink": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=20-1444&m=dev",
+      "texte": [
+        "9:41",
+        "Zählerstand erfassen",
+        "Stromzähler",
+        "Zählernummer 1ESY 1160 •••• 42",
+        "Letzte Ablesung",
+        "12.08.2026",
+        "18.204 kWh",
+        "Zähler scannen",
+        "Die Kamera erkennt den Zählerstand automatisch.",
+        "oder manuell eingeben",
+        "Zählerstand",
+        "18.712",
+        "kWh",
+        "Plausibler Bereich: 18.400 – 19.100 kWh",
+        "Ablesedatum",
+        "04.11.2026",
+        "Heute",
+        "Dein Abschlag wird nach der Übermittlung automatisch geprüft.",
+        "Zählerstand übermitteln"
+      ],
+      "komponenten": [
+        "Status Bar",
+        "Header/Detail",
+        "Icon Button",
+        "Icon/ChevronLeft",
+        "List Row",
+        "Icon/Meter",
+        "Icon/Calendar",
+        "Icon/Camera",
+        "Icon/ChevronRight",
+        "Input Field",
+        "Button"
+      ],
+      "klickbar": [],
+      "fingerabdruck": "ca261d8ab82f3611",
+      "weiterZu": [],
+      "kommtVon": [],
+      "position": "3 von 5",
+      "flowScreens": [
+        "01 – Übersicht",
+        "02 – Verbrauch",
+        "03 – Zählerstand erfassen",
+        "04 – Abschlag anpassen",
+        "05 – Vertrag"
+      ],
+      "ki": {
+        "kurzbeschreibung": "Screen zum Erfassen und Übermitteln eines Strom-Zählerstands. Die Nutzerin kann den Zähler scannen oder den Wert manuell eingeben und ein Ablesedatum sehen bzw. wählen.",
+        "aenderung": "",
+        "stichworte": [
+          "Zählerstand",
+          "Stromzähler",
+          "Ablesedatum",
+          "Zähler scannen",
+          "manuelle Eingabe",
+          "Plausibler Bereich",
+          "Übermitteln",
+          "Abschlag"
+        ],
+        "cx": {
+          "journey_moment": "Kundin erfasst einen neuen Zählerstand zur Meldung an den Anbieter",
+          "kundenerlebnis": "Sie sieht ihren zugeordneten Stromzähler, die letzte Ablesung, einen Scan-Einstieg und die manuelle Eingabe des aktuellen Zählerstands mit Datum.",
+          "tonalitaet": "sachlich, unterstützend, leicht beruhigend",
+          "moegliche_reibungspunkte": [
+            "vermutlich unklar, ob der Scan direkt startet oder nur zu einer nächsten Ansicht führt",
+            "vermutlich kann die Angabe des plausiblen Bereichs verunsichern, wenn der Wert außerhalb liegt",
+            "vermutlich ist nicht ersichtlich, ob das Ablesedatum bearbeitbar ist oder automatisch gesetzt wird",
+            "vermutlich fehlt ein Hinweis, was passiert, wenn der Zählerstand nicht plausibel ist"
+          ]
+        },
+        "re": {
+          "aktionen": [
+            "Zähler scannen auswählen",
+            "Zählerstand manuell eingeben",
+            "Ablesedatum ansehen oder vermutlich ändern",
+            "Zählerstand übermitteln"
+          ],
+          "eingabefelder": [
+            "Zählerstand: numerische Eingabe mit Einheit kWh",
+            "Ablesedatum: Datumseingabe"
+          ],
+          "zustaende_sichtbar": [
+            "Normalzustand mit vorausgefülltem Zählerstand",
+            "Hinweis auf plausiblen Bereich",
+            "Hinweistext zur automatischen Prüfung nach Übermittlung"
+          ],
+          "zustaende_fehlend": [
+            "Ladezustand für Scan",
+            "Fehlerzustand bei unplausiblem Zählerstand",
+            "Fehlerzustand bei ungültigem Datum",
+            "Erfolgszustand nach Übermittlung"
+          ]
+        },
+        "ba": {
+          "angezeigte_daten": [
+            "Zählerbezeichnung: Stromzähler",
+            "Zählernummer: 1ESY 1160 •••• 42",
+            "Letzte Ablesung: 12.08.2026",
+            "Letzter Zählerstand: 18.204 kWh",
+            "Aktueller Zählerstand: 18.712 kWh",
+            "Plausibler Bereich: 18.400 – 19.100 kWh",
+            "Ablesedatum: 04.11.2026"
+          ],
+          "vermutete_regeln": [
+            "vermutlich muss der eingegebene Zählerstand im plausiblen Bereich liegen oder wird geprüft",
+            "vermutlich wird nach Übermittlung der Abschlag automatisch auf Plausibilität geprüft",
+            "vermutlich ist nur ein Stromzähler pro Screen-Kontext relevant"
+          ]
+        },
+        "qa": {
+          "testfaelle": [
+            "Screen zeigt die Zählernummer mit maskiertem Mittelteil korrekt an",
+            "Letzte Ablesung und letzter Zählerstand werden korrekt dargestellt",
+            "Zählerstand kann manuell mit Dezimal-/Tausenderformat angezeigt werden",
+            "Ablesedatum zeigt das Datum im dargestellten Format",
+            "Plausibler Bereich wird sichtbar angezeigt",
+            "Button 'Zählerstand übermitteln' ist sichtbar",
+            "Zustand mit vorausgefüllten Werten wird korrekt geladen"
+          ]
+        },
+        "dev": {
+          "datenfelder": [
+            "zählerbezeichnung",
+            "zählernummer_maskiert",
+            "letzte_ablesung_datum",
+            "letzter_zaehlerstand_kwh",
+            "aktueller_zaehlerstand_kwh",
+            "plausibler_bereich_min_kwh",
+            "plausibler_bereich_max_kwh",
+            "ablesedatum"
+          ],
+          "hinweise": [
+            "Input Field für Zählerstand mit Einheit kWh rechts",
+            "List Row-Komponenten für Zählerinfo und letzte Ablesung",
+            "Icon/Button für Scan-Einstieg mit ChevronRight",
+            "Bottom-Bereich mit Hinweistext und Primärbutton",
+            "vermutlich Validierung für Zahlenformat und Datumsformat nötig"
+          ]
+        },
+        "analytics": {
+          "events": [
+            "screen_view_zählerstand_erfassen",
+            "klick_zähler_scannen",
+            "eingabe_zaehlerstand",
+            "eingabe_ablesedatum",
+            "klick_zählerstand_übermitteln"
+          ],
+          "funnel_position": "3 von 5 im Strom-App-Flow, zwischen Verbrauch und Abschlag anpassen"
+        },
+        "offene_fragen": [
+          "Ist 'Ablesedatum' editierbar oder nur informativ?",
+          "Startet 'Zähler scannen' direkt die Kamera oder öffnet es einen Zwischenschritt?",
+          "Welche Fehlermeldung erscheint bei unplausiblem Zählerstand?",
+          "Wird die Übermittlung erst bei gültigem Wert aktiv?"
+        ]
+      },
+      "bildSha": "c575ac3c28e10e5117647eaf1d07ccae645b87c0",
+      "zuletztGeaendert": "2026-11-04",
+      "letzteAenderung": "Screen neu angelegt."
+    },
+    "20:1469": {
+      "id": "20:1469",
+      "name": "04 – Abschlag anpassen",
+      "flow": "Screens – Strom-App",
+      "seite": "livePage",
+      "status": "beschlossen",
+      "pfad": "screens/screens-strom-app/04-abschlag-anpassen.md",
+      "bildPfad": "screens/screens-strom-app/04-abschlag-anpassen.png",
+      "link": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=20-1469",
+      "devModeLink": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=20-1469&m=dev",
+      "texte": [
+        "9:41",
+        "Abschlag anpassen",
+        "Dein monatlicher Abschlag",
+        "72 €",
+        "bisher 78,00 €",
+        "55 €",
+        "120 €",
+        "Entspricht unserer Empfehlung",
+        "Empfehlung: 72 € pro Monat",
+        "Basierend auf deinem Verbrauch der letzten 12 Monate und deinem aktuellen Tarif. So vermeidest du eine hohe Nachzahlung.",
+        "Gültig ab",
+        "15.12.2026",
+        "Jahresabrechnung",
+        "Prognose für 2026",
+        "+ 14 € Guthaben",
+        "Neuen Abschlag speichern",
+        "Abbrechen"
+      ],
+      "komponenten": [
+        "Status Bar",
+        "Header/Detail",
+        "Icon Button",
+        "Icon/ChevronLeft",
+        "Icon/Minus",
+        "Icon/Plus",
+        "Badge",
+        "Icon/Check",
+        "List Row",
+        "Icon/Calendar",
+        "Icon/Euro",
+        "Button"
+      ],
+      "klickbar": [],
+      "fingerabdruck": "87b6c2d514746e9e",
+      "weiterZu": [],
+      "kommtVon": [],
+      "position": "4 von 5",
+      "flowScreens": [
+        "01 – Übersicht",
+        "02 – Verbrauch",
+        "03 – Zählerstand erfassen",
+        "04 – Abschlag anpassen",
+        "05 – Vertrag"
+      ],
+      "ki": {
+        "kurzbeschreibung": "Screen zum Anpassen des monatlichen Strom-Abschlags. Nutzer:innen können den Abschlag über Plus/Minus bzw. einen Slider ändern und sehen direkt eine Empfehlung sowie die Auswirkungen auf die Jahresabrechnung.",
+        "aenderung": "",
+        "stichworte": [
+          "Abschlag anpassen",
+          "monatlicher Abschlag",
+          "Slider",
+          "Empfehlung",
+          "Guthaben",
+          "Jahresabrechnung",
+          "Speichern",
+          "Abbrechen"
+        ],
+        "cx": {
+          "journey_moment": "Kundin passt den Abschlag vor der nächsten Abrechnung an",
+          "kundenerlebnis": "Die Kundin sieht den aktuellen und einen empfohlenen monatlichen Abschlag und kann den Betrag anpassen. Zusätzlich werden Gültigkeitsdatum und eine Prognose für die Jahresabrechnung angezeigt.",
+          "tonalitaet": "sachlich, unterstützend, beruhigend",
+          "moegliche_reibungspunkte": [
+            "vermutlich ist nicht klar, ob der Slider oder Plus/Minus direkt den Betrag ändert",
+            "vermutlich fehlt eine Rückmeldung, was nach dem Speichern passiert",
+            "vermutlich könnte unklar sein, ob der empfohlene Betrag verbindlich ist oder nur ein Hinweis",
+            "vermutlich ist nicht ersichtlich, ob der Betrag sofort validiert wird"
+          ]
+        },
+        "re": {
+          "aktionen": [
+            "Abschlag per Minus reduzieren",
+            "Abschlag per Plus erhöhen",
+            "Abschlag über Slider anpassen",
+            "Neuen Abschlag speichern",
+            "Abbrechen"
+          ],
+          "eingabefelder": [
+            "Abschlag-Betrag über Slider/Schrittsteuerung"
+          ],
+          "zustaende_sichtbar": [
+            "Normalzustand",
+            "Empfehlungszustand hervorgehoben",
+            "Prognose sichtbar"
+          ],
+          "zustaende_fehlend": [
+            "vermutlich Fehlerzustand bei ungültigem Betrag",
+            "vermutlich Ladezustand beim Speichern",
+            "vermutlich Bestätigung nach erfolgreichem Speichern"
+          ]
+        },
+        "ba": {
+          "angezeigte_daten": [
+            "Aktueller monatlicher Abschlag: 72 €",
+            "Bisheriger Abschlag: 78,00 €",
+            "Mindestwert am Slider: 55 €",
+            "Höchstwert am Slider: 120 €",
+            "Empfehlung: 72 € pro Monat",
+            "Gültig ab: 15.12.2026",
+            "Jahresabrechnung: Prognose für 2026",
+            "+ 14 € Guthaben"
+          ],
+          "vermutete_regeln": [
+            "vermutlich ist der empfohlene Abschlag aus Verbrauch der letzten 12 Monate und aktuellem Tarif berechnet",
+            "vermutlich wird der neue Abschlag nur innerhalb des sichtbaren Bereichs 55 € bis 120 € zugelassen",
+            "vermutlich gilt die angezeigte Prognose für die gewählte Abschlagshöhe",
+            "vermutlich wird der neue Abschlag ab dem angegebenen Datum wirksam"
+          ]
+        },
+        "qa": {
+          "testfaelle": [
+            "Initialwert 72 € wird angezeigt",
+            "Bisheriger Wert 78,00 € wird korrekt dargestellt",
+            "Plus und Minus ändern den Abschlag innerhalb der Grenzen",
+            "Slider lässt sich nur zwischen 55 € und 120 € bewegen",
+            "Badge 'Entspricht unserer Empfehlung' erscheint beim empfohlenen Wert",
+            "Empfehlungsbox zeigt Text und Guthaben-Prognose korrekt",
+            "Gültig-ab-Datum wird korrekt angezeigt",
+            "Speichern-Button ist sichtbar und beschriftet",
+            "Abbrechen ist sichtbar und klickbar",
+            "vermutlich keine Anzeige außerhalb des Wertebereichs"
+          ]
+        },
+        "dev": {
+          "datenfelder": [
+            "current_monthly_advance_amount",
+            "previous_monthly_advance_amount",
+            "advance_min_amount",
+            "advance_max_amount",
+            "recommended_advance_amount",
+            "recommendation_reason_text",
+            "valid_from_date",
+            "annual_statement_forecast_year",
+            "annual_statement_forecast_balance"
+          ],
+          "hinweise": [
+            "Slider und Plus/Minus müssen denselben Betrag steuern",
+            "Betrag und Formatierung mit Euro-Zeichen und Dezimaldarstellung konsistent halten",
+            "Empfehlungs-Badge abhängig vom aktuellen Betrag ein-/ausblenden",
+            "Prognose und Empfehlung sollten aus Backend-/Berechnungsdaten kommen",
+            "CTA unten fix bzw. im Footer platziert"
+          ]
+        },
+        "analytics": {
+          "events": [
+            "klick_abschlag_minus",
+            "klick_abschlag_plus",
+            "slider_abschlag_change",
+            "klick_neuen_abschlag_speichern",
+            "klick_abbrechen"
+          ],
+          "funnel_position": "Mitte des Self-Service-Flows: Anpassung des Abschlags vor Abschluss"
+        },
+        "offene_fragen": [
+          "Was passiert nach 'Neuen Abschlag speichern' genau?",
+          "Ist der Abschlag-Bereich 55 € bis 120 € hart begrenzt?",
+          "Wie wird die Prognose für die Jahresabrechnung berechnet?",
+          "Ist 'Gültig ab 15.12.2026' immer fest oder dynamisch?",
+          "Was bedeutet 'Entspricht unserer Empfehlung' genau bei anderen Werten?"
+        ]
+      },
+      "bildSha": "007f4e7ee58f92caa8b34988fb408a93210e1d49",
+      "zuletztGeaendert": "2026-11-04",
+      "letzteAenderung": "Screen neu angelegt."
+    },
+    "20:1504": {
+      "id": "20:1504",
+      "name": "05 – Vertrag",
+      "flow": "Screens – Strom-App",
+      "seite": "livePage",
+      "status": "beschlossen",
+      "pfad": "screens/screens-strom-app/05-vertrag.md",
+      "bildPfad": "screens/screens-strom-app/05-vertrag.png",
+      "link": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=20-1504",
+      "devModeLink": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=20-1504&m=dev",
+      "texte": [
+        "9:41",
+        "Kundennr. 4012 •••• 78",
+        "Vertrag",
+        "Dein Tarif",
+        "Ökostrom Flex",
+        "100 % Ökostrom",
+        "Arbeitspreis",
+        "31,90 ct/kWh",
+        "Grundpreis",
+        "12,50 €/Monat",
+        "Laufzeit",
+        "monatlich kündbar",
+        "Tarife vergleichen",
+        "Dokumente",
+        "Alle anzeigen",
+        "Jahresabrechnung 2025",
+        "PDF · 12.02.2026",
+        "Neu",
+        "Abschlagsplan 2026",
+        "PDF · 20.02.2026",
+        "Vertragsbestätigung",
+        "PDF · 03.01.2025",
+        "Lieferstelle",
+        "Musterstraße 12, 12345 Musterstadt",
+        "Übersicht",
+        "Verbrauch",
+        "Zähler",
+        "Profil"
+      ],
+      "komponenten": [
+        "Status Bar",
+        "Header/Main",
+        "Icon/Bolt",
+        "Badge",
+        "Button",
+        "List Row",
+        "Icon/Document",
+        "Icon/ChevronRight",
+        "Icon/MapPin",
+        "Tab Bar",
+        "Tab Item",
+        "Icon/Home",
+        "Icon/Chart",
+        "Icon/Meter",
+        "Icon/User"
+      ],
+      "klickbar": [],
+      "fingerabdruck": "bb36fbc31a54503e",
+      "weiterZu": [],
+      "kommtVon": [],
+      "position": "5 von 5",
+      "flowScreens": [
+        "01 – Übersicht",
+        "02 – Verbrauch",
+        "03 – Zählerstand erfassen",
+        "04 – Abschlag anpassen",
+        "05 – Vertrag"
+      ],
+      "ki": {
+        "kurzbeschreibung": "Vertragsübersicht mit Tarifdaten, Dokumentenliste und Lieferstellen-Informationen. Der Screen dient vermutlich dazu, Vertragsdetails schnell einzusehen und weiterführende Dokumente aufzurufen.",
+        "aenderung": "",
+        "stichworte": [
+          "Vertrag",
+          "Tarif",
+          "Ökostrom Flex",
+          "Dokumente",
+          "Jahresabrechnung",
+          "Abschlagsplan",
+          "Vertragsbestätigung",
+          "Lieferstelle"
+        ],
+        "cx": {
+          "journey_moment": "Kundin prüft Vertrags- und Tarifdetails im eingeloggten Bereich",
+          "kundenerlebnis": "Die Kundin sieht ihre Vertragsdaten, kann Dokumente einsehen und die Lieferstelle prüfen.",
+          "tonalitaet": "sachlich, informativ, übersichtlich",
+          "moegliche_reibungspunkte": [
+            "Die Funktion von „Tarife vergleichen“ ist ohne Kontext nur indirekt verständlich.",
+            "„Neu“ bei der Jahresabrechnung 2025 kann Aufmerksamkeit erzeugen, obwohl unklar ist, was genau neu ist.",
+            "Ob die Dokumente direkt geöffnet werden oder erst eine Liste folgt, ist aus dem Screen allein nicht klar."
+          ]
+        },
+        "re": {
+          "aktionen": [
+            "Tarife vergleichen",
+            "Alle anzeigen bei Dokumenten",
+            "einzelne Dokumente in der Liste öffnen",
+            "Lieferstelle öffnen"
+          ],
+          "eingabefelder": [],
+          "zustaende_sichtbar": [
+            "Normalzustand",
+            "Badge „Neu“ bei einem Dokument"
+          ],
+          "zustaende_fehlend": [
+            "Leerzustand für Dokumente",
+            "Fehlerzustand beim Laden der Vertragsdaten",
+            "Ladezustand für Dokumente",
+            "Zustand für fehlende Lieferstellen- oder Tarifdaten"
+          ]
+        },
+        "ba": {
+          "angezeigte_daten": [
+            "Kundennr. 4012 •••• 78",
+            "Tarif: Ökostrom Flex",
+            "Kennzeichnung: 100 % Ökostrom",
+            "Arbeitspreis: 31,90 ct/kWh",
+            "Grundpreis: 12,50 €/Monat",
+            "Laufzeit: monatlich kündbar",
+            "Dokument: Jahresabrechnung 2025, PDF · 12.02.2026, Badge „Neu“",
+            "Dokument: Abschlagsplan 2026, PDF · 20.02.2026",
+            "Dokument: Vertragsbestätigung, PDF · 03.01.2025",
+            "Lieferstelle: Musterstraße 12, 12345 Musterstadt"
+          ],
+          "vermutete_regeln": [
+            "Dokumente sind vermutlich nach Datum oder fachlicher Relevanz sortiert.",
+            "Der Badge „Neu“ markiert vermutlich ein noch nicht angesehenes Dokument.",
+            "Die Kundennummer ist teilweise maskiert dargestellt.",
+            "Die Lieferstelle gehört vermutlich zum aktuellen Vertrag."
+          ]
+        },
+        "qa": {
+          "testfaelle": [
+            "Tarifkarte zeigt alle drei Tarifdaten korrekt an.",
+            "Dokumentenliste zeigt drei Einträge mit Titel, Dateityp und Datum.",
+            "Badge „Neu“ wird nur beim ersten Dokument angezeigt.",
+            "„Alle anzeigen“ ist sichtbar und ansteuerbar.",
+            "Tab Bar markiert „Vertrag“ als aktiven Bereich.",
+            "Lieferstellen-Karte zeigt Adresse korrekt an.",
+            "Kundennummer wird teilweise maskiert dargestellt."
+          ]
+        },
+        "dev": {
+          "datenfelder": [
+            "kundennummer_maskiert",
+            "tarifname",
+            "oekostrom_label",
+            "arbeitspreis",
+            "grundpreis",
+            "laufzeit",
+            "dokumente[{titel,dateityp,datum,neu_flag}]",
+            "lieferstelle_adresse",
+            "aktive_tab"
+          ],
+          "hinweise": [
+            "List Row und Button aus dem Designsystem verwenden.",
+            "Chevron signalisiert Navigation zu Detailansichten.",
+            "Badge nur bei gesetztem Neu-Status rendern.",
+            "Tab Bar mit aktivem Tab „Vertrag“ vorselektieren."
+          ]
+        },
+        "analytics": {
+          "events": [
+            "klick_tarife_vergleichen",
+            "klick_dokument_oeffnen",
+            "klick_alle_dokumente",
+            "klick_lieferstelle",
+            "klick_tab_vertrag"
+          ],
+          "funnel_position": "letzter Screen im Flow – Vertragsübersicht"
+        },
+        "offene_fragen": [
+          "Öffnen die Dokumente direkt ein PDF oder eine Detailseite?",
+          "Wohin führt „Alle anzeigen“ genau?",
+          "Welche Bedeutung hat „Neu“ fachlich?",
+          "Ist „Tarife vergleichen“ eine interne Vergleichsseite oder ein externer Flow?"
+        ]
+      },
+      "bildSha": "20aa4f4a68e4ca38add55f4c84f029ed8b370343",
+      "zuletztGeaendert": "2026-11-04",
+      "letzteAenderung": "Screen neu angelegt."
+    }
+  },
+  "verlauf": [
+    {
+      "datum": "2026-11-04",
+      "screen": "05 – Vertrag",
+      "pfad": "screens/screens-strom-app/05-vertrag.md",
+      "aenderung": "Screen neu angelegt."
+    },
+    {
+      "datum": "2026-11-04",
+      "screen": "04 – Abschlag anpassen",
+      "pfad": "screens/screens-strom-app/04-abschlag-anpassen.md",
+      "aenderung": "Screen neu angelegt."
+    },
+    {
+      "datum": "2026-11-04",
+      "screen": "03 – Zählerstand erfassen",
+      "pfad": "screens/screens-strom-app/03-zaehlerstand-erfassen.md",
+      "aenderung": "Screen neu angelegt."
+    },
+    {
+      "datum": "2026-11-04",
+      "screen": "02 – Verbrauch",
+      "pfad": "screens/screens-strom-app/02-verbrauch.md",
+      "aenderung": "Screen neu angelegt."
+    },
+    {
+      "datum": "2026-11-04",
+      "screen": "01 – Übersicht",
+      "pfad": "screens/screens-strom-app/01-uebersicht.md",
+      "aenderung": "Screen neu angelegt."
+    },
+    {
+      "datum": "2026-11-04",
+      "screen": "Komponenten-Bibliothek",
+      "pfad": "screens/foundations-komponenten/komponenten-bibliothek.md",
+      "aenderung": "Screen neu angelegt."
+    },
+    {
+      "datum": "2026-11-04",
+      "screen": "Frame 1",
+      "pfad": "screens/livepage/frame-1.md",
+      "aenderung": "Screen neu angelegt."
+    }
+  ]
+}
