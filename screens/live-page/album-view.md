@@ -2,7 +2,7 @@
 id: "6:62"
 name: "Album View"
 flow: "live page"
-status: beschlossen
+status: archiviert
 quelle: https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=6-62
 erzeugt_von: figma-sync
 ---
@@ -12,8 +12,10 @@ erzeugt_von: figma-sync
 | | |
 |---|---|
 | **Flow** | live page |
-| **Status** | beschlossen |
+| **Status** | archiviert |
 | **Figma** | [Screen öffnen](https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=6-62) |
+
+> Dieser Screen ist in Figma nicht mehr als relevant markiert.
 
 ## Sichtbare Texte
 
