@@ -111,108 +111,6 @@
       },
       "zuletztGeaendert": "2026-11-11"
     },
-    "umzug-vertrag-mitnehmen": {
-      "feature": "Umzug – Vertrag mitnehmen",
-      "goal": "Mehr Kund:innen nehmen ihren Vertrag beim Umzug mit, weil sie den Weg in der App finden und die Fristen kennen.",
-      "figmaPage": "Feature: Umzug – Vertrag mitnehmen",
-      "approver": "UX",
-      "fingerabdruck": "a5179c02ce6c80e3",
-      "kriterien": [
-        {
-          "id": "AC1",
-          "text": "Im Vertragsbereich gibt es einen klar erkennbaren Einstieg 'Ich ziehe um'.",
-          "gewicht": 1
-        },
-        {
-          "id": "AC2",
-          "text": "Es wird erklärt, dass der Vertrag mitgenommen werden kann und bis wann der Umzug gemeldet werden muss.",
-          "gewicht": 2
-        },
-        {
-          "id": "AC3",
-          "text": "Nutzer:innen können neue Adresse und Umzugsdatum eingeben.",
-          "gewicht": 2
-        },
-        {
-          "id": "AC4",
-          "text": "Der Zählerstand bei Auszug kann im Ablauf erfasst werden.",
-          "gewicht": 1
-        },
-        {
-          "id": "AC5",
-          "text": "Ein Bestätigungsscreen fasst zusammen, was als Nächstes passiert.",
-          "gewicht": 1
-        }
-      ],
-      "bewertungen": [
-        {
-          "id": "AC1",
-          "status": "erfuellt",
-          "begruendung": "Im Vertragsbereich ist ein klar benannter Einstieg „Ich ziehe um“ sichtbar, inklusive erklärendem Untertext zur Vertragsmitnahme. Der Screen gehört eindeutig zum Vertragsbereich.",
-          "screens": [
-            "UM-01 – Vertrag mit Umzug-Einstieg"
-          ]
-        },
-        {
-          "id": "AC2",
-          "status": "teilweise",
-          "begruendung": "Es wird erklärt, dass der Vertrag mitgenommen werden kann („ohne neuen Vertrag“ / „Vertrag an deine neue Adresse mitnehmen“). Eine Frist oder bis wann der Umzug gemeldet werden muss, ist in den Screens nicht ersichtlich.",
-          "screens": [
-            "UM-01 – Vertrag mit Umzug-Einstieg",
-            "UM-02 – Umzug melden (WIP)"
-          ]
-        },
-        {
-          "id": "AC3",
-          "status": "offen",
-          "begruendung": "Auf dem WIP-Screen steht nur ein Platzhalter „TODO: Formular für neue Adresse & Umzugsdatum“. Eingabefelder oder konkrete Erfassung der Daten sind nicht gezeigt.",
-          "screens": [
-            "UM-02 – Umzug melden (WIP)"
-          ]
-        },
-        {
-          "id": "AC4",
-          "status": "offen",
-          "begruendung": "In den Screens gibt es keinen Hinweis auf die Erfassung eines Zählerstands beim Auszug. Ein entsprechendes Feld oder Schritt ist nicht sichtbar.",
-          "screens": [
-            "UM-01 – Vertrag mit Umzug-Einstieg",
-            "UM-02 – Umzug melden (WIP)"
-          ]
-        },
-        {
-          "id": "AC5",
-          "status": "offen",
-          "begruendung": "Ein Bestätigungsscreen oder eine Zusammenfassung der nächsten Schritte ist nicht vorhanden. Der gezeigte Umzugs-Screen endet bei einem „Weiter“-Button ohne Abschlusszustand.",
-          "screens": [
-            "UM-02 – Umzug melden (WIP)"
-          ]
-        }
-      ],
-      "pruefhinweise": [
-        "Prüfen, ob die Frist zum Umzugsmelden fachlich korrekt und gut sichtbar im Flow platziert ist.",
-        "Prüfen, ob nach „Weiter“ tatsächlich ein Formular- bzw. Bestätigungsschritt folgt, der hier nur nicht im Figma-Ausschnitt enthalten ist.",
-        "Prüfen, ob für den Umzug auch ein Zählerstand-Auszugsschritt vorgesehen ist, obwohl er in den Screens fehlt."
-      ],
-      "zusammenfassung": "Der Einstieg in den Umzug ist sichtbar, aber zentrale Schritte wie Frist, Formular, Zählerstand und Bestätigung sind in den gelieferten Screens noch nicht umgesetzt.",
-      "screens": [
-        {
-          "name": "UM-01 – Vertrag mit Umzug-Einstieg",
-          "pfad": "screens/feature-umzug-vertrag-mitnehmen/um-01-vertrag-mit-umzug-einstieg.md"
-        },
-        {
-          "name": "UM-02 – Umzug melden (WIP)",
-          "pfad": "screens/feature-umzug-vertrag-mitnehmen/um-02-umzug-melden-wip.md"
-        }
-      ],
-      "prozent": 29,
-      "erfuellt": 1,
-      "anzahl": 5,
-      "freigabe": {
-        "zustand": "keine",
-        "text": "Nächste Freigabe bei 50 %"
-      },
-      "zuletztGeaendert": "2026-11-11"
-    },
     "zaehlerstand-abgeben": {
       "feature": "Zählerstand abgeben",
       "goal": "Kund:innen geben ihren Zählerstand einfach und fehlerfrei in der App ab (Kern-Feature der App).",
@@ -310,9 +208,130 @@
         "text": "Freigabe für 100 % bei UX angefragt"
       },
       "zuletztGeaendert": "2026-11-11"
+    },
+    "umzug-vertrag-mitnehmen": {
+      "feature": "Umzug – Vertrag mitnehmen",
+      "goal": "Mehr Kund:innen nehmen ihren Vertrag beim Umzug mit, weil sie den Weg in der App finden und die Fristen kennen.",
+      "figmaPage": "Feature: Umzug – Vertrag mitnehmen",
+      "approver": "UX",
+      "fingerabdruck": "ed32928ce8d375fd",
+      "kriterien": [
+        {
+          "id": "AC1",
+          "text": "Im Vertragsbereich gibt es einen klar erkennbaren Einstieg 'Ich ziehe um'.",
+          "gewicht": 1
+        },
+        {
+          "id": "AC2",
+          "text": "Es wird erklärt, dass der Vertrag mitgenommen werden kann und bis wann der Umzug gemeldet werden muss.",
+          "gewicht": 2
+        },
+        {
+          "id": "AC3",
+          "text": "Nutzer:innen können neue Adresse und Umzugsdatum eingeben.",
+          "gewicht": 2
+        },
+        {
+          "id": "AC4",
+          "text": "Der Zählerstand bei Auszug kann im Ablauf erfasst werden.",
+          "gewicht": 1
+        },
+        {
+          "id": "AC5",
+          "text": "Ein Bestätigungsscreen fasst zusammen, was als Nächstes passiert.",
+          "gewicht": 1
+        }
+      ],
+      "bewertungen": [
+        {
+          "id": "AC1",
+          "status": "erfuellt",
+          "begruendung": "Im Vertragsbereich ist der Einstieg „Ich ziehe um“ sichtbar, inklusive Hinweis „Vertrag an deine neue Adresse mitnehmen“. Das ist klar als Umzugs-Einstieg erkennbar.",
+          "screens": [
+            "UM-01 – Vertrag mit Umzug-Einstieg"
+          ]
+        },
+        {
+          "id": "AC2",
+          "status": "erfuellt",
+          "begruendung": "Der Flow erklärt, dass der bestehende Vertrag mitgenommen werden kann („ohne neuen Vertrag“) und nennt zusätzlich den Fristen-/Prüfschritt: „Wir prüfen im nächsten Schritt, ob Yello an deiner neuen Adresse liefern kann.“",
+          "screens": [
+            "UM-02 – Umzug melden",
+            "UM-03 – Neue Adresse"
+          ]
+        },
+        {
+          "id": "AC3",
+          "status": "erfuellt",
+          "begruendung": "Auf dem Screen „Neue Adresse“ gibt es Eingabefelder für Straße und Hausnummer, PLZ, Ort sowie ein Feld für das Umzugsdatum. Die Nutzer:innen können diese Daten erfassen bzw. ändern.",
+          "screens": [
+            "UM-03 – Neue Adresse"
+          ]
+        },
+        {
+          "id": "AC4",
+          "status": "offen",
+          "begruendung": "In den gelieferten Screens gibt es keinen Hinweis auf die Erfassung des Zählerstands beim Auszug. Es werden nur Adresse und Umzugsdatum gezeigt.",
+          "screens": [
+            "UM-01 – Vertrag mit Umzug-Einstieg",
+            "UM-02 – Umzug melden",
+            "UM-03 – Neue Adresse"
+          ]
+        },
+        {
+          "id": "AC5",
+          "status": "offen",
+          "begruendung": "Ein Bestätigungsscreen mit Zusammenfassung der nächsten Schritte ist nicht enthalten. Gezeigt werden nur die Einstiegs- und Eingabescreens des Umzugsflows.",
+          "screens": [
+            "UM-01 – Vertrag mit Umzug-Einstieg",
+            "UM-02 – Umzug melden",
+            "UM-03 – Neue Adresse"
+          ]
+        }
+      ],
+      "pruefhinweise": [
+        "Prüfen, ob nach „Weiter“ tatsächlich ein Bestätigungs-/Zusammenfassungsscreen folgt und welche Inhalte dort stehen.",
+        "Prüfen, ob die Frist zum Umzugsmelden konkret genannt wird oder nur indirekt über den Prüfhint angedeutet ist.",
+        "Prüfen, ob der Zählerstand an anderer Stelle im Flow erfasst wird, die in den gelieferten Screens nicht sichtbar ist."
+      ],
+      "zusammenfassung": "Der Umzugs-Flow ist mit Einstieg, Erklärung sowie Eingabe von Adresse und Datum weitgehend sichtbar, aber Zählerstand und Bestätigungszusammenfassung fehlen in den Screens.",
+      "screens": [
+        {
+          "name": "UM-01 – Vertrag mit Umzug-Einstieg",
+          "pfad": "screens/feature-umzug-vertrag-mitnehmen/um-01-vertrag-mit-umzug-einstieg.md"
+        },
+        {
+          "name": "UM-02 – Umzug melden",
+          "pfad": "screens/feature-umzug-vertrag-mitnehmen/um-02-umzug-melden.md"
+        },
+        {
+          "name": "UM-03 – Neue Adresse",
+          "pfad": "screens/feature-umzug-vertrag-mitnehmen/um-03-neue-adresse.md"
+        }
+      ],
+      "prozent": 71,
+      "erfuellt": 3,
+      "anzahl": 5,
+      "freigabe": {
+        "zustand": "ausstehend",
+        "meilenstein": 50,
+        "link": "https://github.com/laurin-fischer/team-gehirn/pulls?q=is%3Apr+head%3Afreigabe%2Fumzug-vertrag-mitnehmen%2F50%2Fed32928c",
+        "text": "Freigabe für 50 % bei UX angefragt"
+      },
+      "zuletztGeaendert": "2026-11-11"
     }
   },
   "verlauf": [
+    {
+      "datum": "2026-11-11",
+      "feature": "Umzug – Vertrag mitnehmen",
+      "aenderung": "Freigabe für 50 % bei UX angefragt"
+    },
+    {
+      "datum": "2026-11-11",
+      "feature": "Umzug – Vertrag mitnehmen",
+      "aenderung": "29 % → 71 % laut KI"
+    },
     {
       "datum": "2026-11-11",
       "feature": "Zählerstand abgeben",
