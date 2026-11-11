@@ -1,14 +1,73 @@
 {
+  "figma_file_key": "NpRSQ1rdXPvYjjxzDiTjBC",
+  "mapping_hint": "Jedes Feature ist in Figma eine eigene Section. Der Workflow prüft nur die Frames innerhalb der Section mit dem Namen in 'figma_section'.",
+  "status_scoring": { "erfuellt": 1, "teilweise": 0.5, "offen": 0 },
   "features": [
     {
-      "id": "ABS-01",
-      "feature": "Abschlag anpassen",
-      "goal": "Kund:innen können ihren Abschlag verstehen und selbst anpassen",
-      "figma_page": "Abschlag anpassen",
-      "approver": "UX",
+      "feature": "Nachzahlung frühzeitig erkennen",
+      "figma_section": "Feature: Nachzahlung frühzeitig erkennen",
+      "source": "Customer Experience",
+      "job_to_be_done": "Ich möchte meine Kosten im Blick behalten, damit mich am Jahresende keine Nachzahlung überrascht.",
+      "goal": "Kund:innen erkennen früh, dass eine Nachzahlung droht, verstehen den Grund und können direkt gegensteuern.",
       "criteria": [
-        { "id": "AC1", "text": "Aktueller Abschlag und Prognose sind auf einem Screen sichtbar", "weight": 2 }
-      ]
+        { "id": "AC1", "text": "Auf der Übersicht erscheint ein gut sichtbarer Hinweis, wenn die Prognose eine Nachzahlung erwarten lässt.", "weight": 2 },
+        { "id": "AC2", "text": "Ein Detailscreen zeigt die erwartete Nachzahlung als Betrag und erklärt den Grund (z. B. gestiegener Verbrauch).", "weight": 2 },
+        { "id": "AC3", "text": "Von dort führt ein direkter Weg zur Abschlagsanpassung, inklusive eines konkret empfohlenen neuen Abschlags.", "weight": 2 },
+        { "id": "AC4", "text": "Nutzer:innen können eine Erinnerung oder Benachrichtigung für künftige Nachzahlungs-Warnungen einstellen.", "weight": 1 },
+        { "id": "AC5", "text": "Alle Texte sind ohne Fachbegriffe verständlich (kein Energie- oder Buchhaltungsjargon).", "weight": 1 }
+      ],
+      "_test_expected": {
+        "AC1": "erfuellt – NZ-01, Karte 'Nachzahlungs-Hinweis'",
+        "AC2": "erfuellt – NZ-02, Betrag 96 € + 'Warum zahlst du nach?'",
+        "AC3": "teilweise – Button 'Abschlag anpassen' vorhanden, aber kein empfohlener Betrag",
+        "AC4": "offen – keine Benachrichtigungs-Einstellung",
+        "AC5": "teilweise – Badge 'Voraussichtlicher Saldo' ist Fachjargon",
+        "progress_percent": 69
+      }
+    },
+    {
+      "feature": "Umzug – Vertrag mitnehmen",
+      "figma_section": "Feature: Umzug – Vertrag mitnehmen",
+      "source": "Customer Experience",
+      "job_to_be_done": "Ich ziehe um und möchte meinen Stromvertrag ohne Aufwand ins neue Zuhause mitnehmen.",
+      "goal": "Mehr Kund:innen nehmen ihren Vertrag beim Umzug mit, weil sie den Weg in der App finden und die Fristen kennen.",
+      "criteria": [
+        { "id": "AC1", "text": "Im Vertragsbereich gibt es einen klar erkennbaren Einstieg 'Ich ziehe um'.", "weight": 1 },
+        { "id": "AC2", "text": "Es wird erklärt, dass der Vertrag mitgenommen werden kann und bis wann der Umzug gemeldet werden muss.", "weight": 2 },
+        { "id": "AC3", "text": "Nutzer:innen können neue Adresse und Umzugsdatum eingeben.", "weight": 2 },
+        { "id": "AC4", "text": "Der Zählerstand bei Auszug kann im Ablauf erfasst werden.", "weight": 1 },
+        { "id": "AC5", "text": "Ein Bestätigungsscreen fasst zusammen, was als Nächstes passiert.", "weight": 1 }
+      ],
+      "_test_expected": {
+        "AC1": "erfuellt – UM-01, Zeile 'Ich ziehe um'",
+        "AC2": "teilweise – Mitnahme erklärt, aber keine Frist",
+        "AC3": "offen – nur Platzhalter 'TODO: Formular'",
+        "AC4": "offen",
+        "AC5": "offen",
+        "progress_percent": 29
+      }
+    },
+    {
+      "feature": "Zählerstand abgeben",
+      "figma_section": "Feature: Zählerstand abgeben",
+      "source": "Customer Experience",
+      "job_to_be_done": "Ich möchte meinen Zählerstand schnell abgeben, um eine aktuelle Prognose zu bekommen.",
+      "goal": "Kund:innen geben ihren Zählerstand einfach und fehlerfrei in der App ab (Kern-Feature der App).",
+      "criteria": [
+        { "id": "AC1", "text": "Der Zähler wird mit Zählernummer und letzter Ablesung angezeigt.", "weight": 1 },
+        { "id": "AC2", "text": "Der Zählerstand kann per Kamera gescannt werden.", "weight": 2 },
+        { "id": "AC3", "text": "Alternativ ist eine manuelle Eingabe möglich, mit Hinweis auf den plausiblen Wertebereich.", "weight": 2 },
+        { "id": "AC4", "text": "Das Ablesedatum ist sichtbar und änderbar.", "weight": 1 },
+        { "id": "AC5", "text": "Vor dem Absenden wird erklärt, was nach der Übermittlung passiert.", "weight": 1 }
+      ],
+      "_test_expected": {
+        "AC1": "erfuellt",
+        "AC2": "erfuellt",
+        "AC3": "erfuellt",
+        "AC4": "erfuellt",
+        "AC5": "erfuellt",
+        "progress_percent": 100
+      }
     }
   ]
 }
