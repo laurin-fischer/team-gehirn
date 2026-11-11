@@ -1,0 +1,14 @@
+{
+  "features": [
+    {
+      "id": "ABS-01",
+      "feature": "Abschlag anpassen",
+      "goal": "Kund:innen können ihren Abschlag verstehen und selbst anpassen",
+      "figma_page": "Abschlag anpassen",
+      "approver": "UX",
+      "criteria": [
+        { "id": "AC1", "text": "Aktueller Abschlag und Prognose sind auf einem Screen sichtbar", "weight": 2 }
+      ]
+    }
+  ]
+}
