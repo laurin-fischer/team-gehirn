@@ -1,0 +1,342 @@
+{
+  "hinweis": "Technische Datei für den Fortschritt-Workflow und den Chat. Bitte nicht von Hand bearbeiten.",
+  "stand": "2026-11-11",
+  "meilensteine": [
+    50,
+    100
+  ],
+  "features": {
+    "nachzahlung-fruehzeitig-erkennen": {
+      "feature": "Nachzahlung frühzeitig erkennen",
+      "goal": "Kund:innen erkennen früh, dass eine Nachzahlung droht, verstehen den Grund und können direkt gegensteuern.",
+      "figmaPage": "Feature: Nachzahlung frühzeitig erkennen",
+      "approver": "UX",
+      "fingerabdruck": "7c117116bc2eb481",
+      "kriterien": [
+        {
+          "id": "AC1",
+          "text": "Auf der Übersicht erscheint ein gut sichtbarer Hinweis, wenn die Prognose eine Nachzahlung erwarten lässt.",
+          "gewicht": 2
+        },
+        {
+          "id": "AC2",
+          "text": "Ein Detailscreen zeigt die erwartete Nachzahlung als Betrag und erklärt den Grund (z. B. gestiegener Verbrauch).",
+          "gewicht": 2
+        },
+        {
+          "id": "AC3",
+          "text": "Von dort führt ein direkter Weg zur Abschlagsanpassung, inklusive eines konkret empfohlenen neuen Abschlags.",
+          "gewicht": 2
+        },
+        {
+          "id": "AC4",
+          "text": "Nutzer:innen können eine Erinnerung oder Benachrichtigung für künftige Nachzahlungs-Warnungen einstellen.",
+          "gewicht": 1
+        },
+        {
+          "id": "AC5",
+          "text": "Alle Texte sind ohne Fachbegriffe verständlich (kein Energie- oder Buchhaltungsjargon).",
+          "gewicht": 1
+        }
+      ],
+      "bewertungen": [
+        {
+          "id": "AC1",
+          "status": "erfuellt",
+          "begruendung": "Auf der Übersicht ist ein klarer, gut sichtbarer Hinweis zur drohenden Nachzahlung vorhanden: „Voraussichtlich ca. 96 € Nachzahlung“ plus erklärender Warntext. Das ist direkt auf dem Übersichts-Screen platziert.",
+          "screens": [
+            "NZ-01 – Übersicht mit Nachzahlungs-Hinweis"
+          ]
+        },
+        {
+          "id": "AC2",
+          "status": "erfuellt",
+          "begruendung": "Der Detailscreen zeigt die erwartete Nachzahlung als Betrag („96 €“) und nennt den Grund („Seit Juni verbrauchst du rund 12 % mehr Strom als im Vorjahr“). Damit sind Betrag und Erklärung sichtbar umgesetzt.",
+          "screens": [
+            "NZ-02 – Nachzahlung erklärt"
+          ]
+        },
+        {
+          "id": "AC3",
+          "status": "teilweise",
+          "begruendung": "Es gibt einen direkten Weg zur Abschlagsanpassung über den Button „Abschlag anpassen“ und den Hinweis „Anpassen“ auf der Übersicht. Ein konkret empfohlener neuer Abschlag wird in den Screens aber nicht angezeigt.",
+          "screens": [
+            "NZ-01 – Übersicht mit Nachzahlungs-Hinweis",
+            "NZ-02 – Nachzahlung erklärt"
+          ]
+        },
+        {
+          "id": "AC4",
+          "status": "offen",
+          "begruendung": "In den gelieferten Screens ist keine Einstellung, Option oder Navigation für eine Erinnerung bzw. Benachrichtigung zu künftigen Nachzahlungs-Warnungen zu sehen.",
+          "screens": [
+            "NZ-01 – Übersicht mit Nachzahlungs-Hinweis",
+            "NZ-02 – Nachzahlung erklärt"
+          ]
+        },
+        {
+          "id": "AC5",
+          "status": "teilweise",
+          "begruendung": "Die Texte wirken überwiegend verständlich und sachlich. Ob wirklich kein Fachjargon verwendet wird, lässt sich aber nicht sicher bestätigen, weil Begriffe wie „Prognose“, „Saldo“ und „Abschlag“ vorkommen und keine Tonalitätsrichtlinie vorliegt.",
+          "screens": [
+            "NZ-01 – Übersicht mit Nachzahlungs-Hinweis",
+            "NZ-02 – Nachzahlung erklärt"
+          ]
+        }
+      ],
+      "pruefhinweise": [
+        "Prüfen, ob der Button „Abschlag anpassen“ tatsächlich zu einer Anpassungsfunktion führt und ob dort ein konkret empfohlener neuer Abschlag vorgeschlagen wird.",
+        "Prüfen, ob es in der App eine Stelle für Erinnerungen/Benachrichtigungen zu Nachzahlungs-Warnungen gibt, die in den Screens nicht sichtbar ist.",
+        "Prüfen, ob die Begriffe „Prognose“, „Saldo“ und „Abschlag“ für die Zielgruppe ausreichend verständlich sind oder vereinfacht werden sollten."
+      ],
+      "zusammenfassung": "Die Nachzahlungswarnung und die Erklärung sind sichtbar umgesetzt, die Abschlagsanpassung ist nur teilweise belegt, und Erinnerungen fehlen in den Screens.",
+      "screens": [
+        {
+          "name": "NZ-01 – Übersicht mit Nachzahlungs-Hinweis",
+          "pfad": "screens/feature-nachzahlung-fruehzeitig-erkennen/nz-01-uebersicht-mit-nachzahlungs-hinweis.md"
+        },
+        {
+          "name": "NZ-02 – Nachzahlung erklärt",
+          "pfad": "screens/feature-nachzahlung-fruehzeitig-erkennen/nz-02-nachzahlung-erklaert.md"
+        }
+      ],
+      "prozent": 69,
+      "erfuellt": 2,
+      "anzahl": 5,
+      "freigabe": {
+        "zustand": "ausstehend",
+        "meilenstein": 50,
+        "link": "https://github.com/laurin-fischer/team-gehirn/pulls?q=is%3Apr+head%3Afreigabe%2Fnachzahlung-fruehzeitig-erkennen%2F50%2F7c117116",
+        "text": "Freigabe für 50 % bei UX angefragt"
+      },
+      "zuletztGeaendert": "2026-11-11"
+    },
+    "umzug-vertrag-mitnehmen": {
+      "feature": "Umzug – Vertrag mitnehmen",
+      "goal": "Mehr Kund:innen nehmen ihren Vertrag beim Umzug mit, weil sie den Weg in der App finden und die Fristen kennen.",
+      "figmaPage": "Feature: Umzug – Vertrag mitnehmen",
+      "approver": "UX",
+      "fingerabdruck": "a5179c02ce6c80e3",
+      "kriterien": [
+        {
+          "id": "AC1",
+          "text": "Im Vertragsbereich gibt es einen klar erkennbaren Einstieg 'Ich ziehe um'.",
+          "gewicht": 1
+        },
+        {
+          "id": "AC2",
+          "text": "Es wird erklärt, dass der Vertrag mitgenommen werden kann und bis wann der Umzug gemeldet werden muss.",
+          "gewicht": 2
+        },
+        {
+          "id": "AC3",
+          "text": "Nutzer:innen können neue Adresse und Umzugsdatum eingeben.",
+          "gewicht": 2
+        },
+        {
+          "id": "AC4",
+          "text": "Der Zählerstand bei Auszug kann im Ablauf erfasst werden.",
+          "gewicht": 1
+        },
+        {
+          "id": "AC5",
+          "text": "Ein Bestätigungsscreen fasst zusammen, was als Nächstes passiert.",
+          "gewicht": 1
+        }
+      ],
+      "bewertungen": [
+        {
+          "id": "AC1",
+          "status": "erfuellt",
+          "begruendung": "Im Vertragsbereich ist ein klar benannter Einstieg „Ich ziehe um“ sichtbar, inklusive erklärendem Untertext zur Vertragsmitnahme. Der Screen gehört eindeutig zum Vertragsbereich.",
+          "screens": [
+            "UM-01 – Vertrag mit Umzug-Einstieg"
+          ]
+        },
+        {
+          "id": "AC2",
+          "status": "teilweise",
+          "begruendung": "Es wird erklärt, dass der Vertrag mitgenommen werden kann („ohne neuen Vertrag“ / „Vertrag an deine neue Adresse mitnehmen“). Eine Frist oder bis wann der Umzug gemeldet werden muss, ist in den Screens nicht ersichtlich.",
+          "screens": [
+            "UM-01 – Vertrag mit Umzug-Einstieg",
+            "UM-02 – Umzug melden (WIP)"
+          ]
+        },
+        {
+          "id": "AC3",
+          "status": "offen",
+          "begruendung": "Auf dem WIP-Screen steht nur ein Platzhalter „TODO: Formular für neue Adresse & Umzugsdatum“. Eingabefelder oder konkrete Erfassung der Daten sind nicht gezeigt.",
+          "screens": [
+            "UM-02 – Umzug melden (WIP)"
+          ]
+        },
+        {
+          "id": "AC4",
+          "status": "offen",
+          "begruendung": "In den Screens gibt es keinen Hinweis auf die Erfassung eines Zählerstands beim Auszug. Ein entsprechendes Feld oder Schritt ist nicht sichtbar.",
+          "screens": [
+            "UM-01 – Vertrag mit Umzug-Einstieg",
+            "UM-02 – Umzug melden (WIP)"
+          ]
+        },
+        {
+          "id": "AC5",
+          "status": "offen",
+          "begruendung": "Ein Bestätigungsscreen oder eine Zusammenfassung der nächsten Schritte ist nicht vorhanden. Der gezeigte Umzugs-Screen endet bei einem „Weiter“-Button ohne Abschlusszustand.",
+          "screens": [
+            "UM-02 – Umzug melden (WIP)"
+          ]
+        }
+      ],
+      "pruefhinweise": [
+        "Prüfen, ob die Frist zum Umzugsmelden fachlich korrekt und gut sichtbar im Flow platziert ist.",
+        "Prüfen, ob nach „Weiter“ tatsächlich ein Formular- bzw. Bestätigungsschritt folgt, der hier nur nicht im Figma-Ausschnitt enthalten ist.",
+        "Prüfen, ob für den Umzug auch ein Zählerstand-Auszugsschritt vorgesehen ist, obwohl er in den Screens fehlt."
+      ],
+      "zusammenfassung": "Der Einstieg in den Umzug ist sichtbar, aber zentrale Schritte wie Frist, Formular, Zählerstand und Bestätigung sind in den gelieferten Screens noch nicht umgesetzt.",
+      "screens": [
+        {
+          "name": "UM-01 – Vertrag mit Umzug-Einstieg",
+          "pfad": "screens/feature-umzug-vertrag-mitnehmen/um-01-vertrag-mit-umzug-einstieg.md"
+        },
+        {
+          "name": "UM-02 – Umzug melden (WIP)",
+          "pfad": "screens/feature-umzug-vertrag-mitnehmen/um-02-umzug-melden-wip.md"
+        }
+      ],
+      "prozent": 29,
+      "erfuellt": 1,
+      "anzahl": 5,
+      "freigabe": {
+        "zustand": "keine",
+        "text": "Nächste Freigabe bei 50 %"
+      },
+      "zuletztGeaendert": "2026-11-11"
+    },
+    "zaehlerstand-abgeben": {
+      "feature": "Zählerstand abgeben",
+      "goal": "Kund:innen geben ihren Zählerstand einfach und fehlerfrei in der App ab (Kern-Feature der App).",
+      "figmaPage": "Feature: Zählerstand abgeben",
+      "approver": "UX",
+      "fingerabdruck": "04b736d88ab8b5ab",
+      "kriterien": [
+        {
+          "id": "AC1",
+          "text": "Der Zähler wird mit Zählernummer und letzter Ablesung angezeigt.",
+          "gewicht": 1
+        },
+        {
+          "id": "AC2",
+          "text": "Der Zählerstand kann per Kamera gescannt werden.",
+          "gewicht": 2
+        },
+        {
+          "id": "AC3",
+          "text": "Alternativ ist eine manuelle Eingabe möglich, mit Hinweis auf den plausiblen Wertebereich.",
+          "gewicht": 2
+        },
+        {
+          "id": "AC4",
+          "text": "Das Ablesedatum ist sichtbar und änderbar.",
+          "gewicht": 1
+        },
+        {
+          "id": "AC5",
+          "text": "Vor dem Absenden wird erklärt, was nach der Übermittlung passiert.",
+          "gewicht": 1
+        }
+      ],
+      "bewertungen": [
+        {
+          "id": "AC1",
+          "status": "erfuellt",
+          "begruendung": "Der Screen zeigt den Zähler mit Zählernummer sowie die letzte Ablesung inklusive Datum und letztem Zählerstand. Damit ist das Kriterium klar abgedeckt.",
+          "screens": [
+            "ZS-01 – Zählerstand erfassen"
+          ]
+        },
+        {
+          "id": "AC2",
+          "status": "erfuellt",
+          "begruendung": "Es gibt die Aktion „Zähler scannen“ und den Text, dass die Kamera den Zählerstand automatisch erkennt. Das belegt die Scan-Funktion per Kamera.",
+          "screens": [
+            "ZS-01 – Zählerstand erfassen"
+          ]
+        },
+        {
+          "id": "AC3",
+          "status": "erfuellt",
+          "begruendung": "Neben dem Scan gibt es ausdrücklich die manuelle Eingabe des Zählerstands sowie den Hinweis auf einen plausiblen Wertebereich. Beides ist sichtbar.",
+          "screens": [
+            "ZS-01 – Zählerstand erfassen"
+          ]
+        },
+        {
+          "id": "AC4",
+          "status": "erfuellt",
+          "begruendung": "Das Ablesedatum wird angezeigt und es gibt eine eigene Datumsauswahl für die Änderung. Damit ist Sichtbarkeit und Änderbarkeit erkennbar.",
+          "screens": [
+            "ZS-01 – Zählerstand erfassen"
+          ]
+        },
+        {
+          "id": "AC5",
+          "status": "erfuellt",
+          "begruendung": "Vor dem Absenden steht ein Hinweis, was nach der Übermittlung passiert: „Dein Abschlag wird nach der Übermittlung automatisch geprüft.“ Das erklärt den nächsten Schritt klar genug.",
+          "screens": [
+            "ZS-01 – Zählerstand erfassen"
+          ]
+        }
+      ],
+      "pruefhinweise": [
+        "Prüfen, ob der Kamerascan technisch wirklich gestartet werden kann und nicht nur als Text/Platzhalter dargestellt ist.",
+        "Prüfen, ob die manuelle Eingabe mit dem plausiblen Bereich auch validiert wird, also bei falschen Werten eine Rückmeldung erscheint.",
+        "Prüfen, ob das Ablesedatum tatsächlich änderbar ist und welche Auswahloptionen bzw. Einschränkungen es gibt."
+      ],
+      "zusammenfassung": "Das Feature ist auf dem gezeigten Screen weitgehend vollständig umgesetzt, alle fünf Acceptance Criteria sind sichtbar abgedeckt.",
+      "screens": [
+        {
+          "name": "ZS-01 – Zählerstand erfassen",
+          "pfad": "screens/feature-zaehlerstand-abgeben/zs-01-zaehlerstand-erfassen.md"
+        }
+      ],
+      "prozent": 100,
+      "erfuellt": 5,
+      "anzahl": 5,
+      "freigabe": {
+        "zustand": "ausstehend",
+        "meilenstein": 100,
+        "link": "https://github.com/laurin-fischer/team-gehirn/pulls?q=is%3Apr+head%3Afreigabe%2Fzaehlerstand-abgeben%2F100%2F04b736d8",
+        "text": "Freigabe für 100 % bei UX angefragt"
+      },
+      "zuletztGeaendert": "2026-11-11"
+    }
+  },
+  "verlauf": [
+    {
+      "datum": "2026-11-11",
+      "feature": "Zählerstand abgeben",
+      "aenderung": "Freigabe für 100 % bei UX angefragt"
+    },
+    {
+      "datum": "2026-11-11",
+      "feature": "Zählerstand abgeben",
+      "aenderung": "neu erfasst, 100 % laut KI"
+    },
+    {
+      "datum": "2026-11-11",
+      "feature": "Umzug – Vertrag mitnehmen",
+      "aenderung": "neu erfasst, 29 % laut KI"
+    },
+    {
+      "datum": "2026-11-11",
+      "feature": "Nachzahlung frühzeitig erkennen",
+      "aenderung": "Freigabe für 50 % bei UX angefragt"
+    },
+    {
+      "datum": "2026-11-11",
+      "feature": "Nachzahlung frühzeitig erkennen",
+      "aenderung": "neu erfasst, 69 % laut KI"
+    }
+  ]
+}
