@@ -2,549 +2,14 @@
   "hinweis": "Technische Datei für den Figma-Sync und den Frage-Workflow. Bitte nicht von Hand bearbeiten.",
   "stand": "2026-11-11",
   "screens": {
-    "64:643": {
-      "id": "64:643",
-      "name": "NZ-01 – Übersicht mit Nachzahlungs-Hinweis",
-      "flow": "Feature: Nachzahlung frühzeitig erkennen",
-      "seite": "livePage",
-      "status": "beschlossen",
-      "pfad": "screens/feature-nachzahlung-fruehzeitig-erkennen/nz-01-uebersicht-mit-nachzahlungs-hinweis.md",
-      "bildPfad": "screens/feature-nachzahlung-fruehzeitig-erkennen/nz-01-uebersicht-mit-nachzahlungs-hinweis.png",
-      "link": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=64-643",
-      "devModeLink": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=64-643&m=dev",
-      "texte": [
-        "9:41",
-        "Mittwoch, 4. November",
-        "Hallo, Alex",
-        "Verbrauch im November",
-        "−8 % zum Vormonat",
-        "186",
-        "kWh",
-        "Stand heute, 08:12 Uhr · Smart Meter",
-        "Prognose 2026: 2.140 kWh",
-        "Vorjahr: 2.310 kWh",
-        "Voraussichtlich ca. 96 € Nachzahlung",
-        "Du verbrauchst mehr Strom als deine Abschläge abdecken. Tippe hier, um zu sehen, warum.",
-        "Nächster Abschlag",
-        "78,00 €",
-        "am 15.11. · SEPA-Lastschrift",
-        "Zu niedrig",
-        "Anpassen",
-        "Schnellzugriff",
-        "Zählerstand",
-        "Abschlag",
-        "Übersicht",
-        "Verbrauch",
-        "Zähler",
-        "Vertrag",
-        "Profil"
-      ],
-      "komponenten": [
-        "Status Bar",
-        "Header/Main",
-        "Icon Button",
-        "Icon/Bell",
-        "Badge",
-        "Icon/Info",
-        "Icon/Euro",
-        "Icon/ChevronRight",
-        "Quick Action",
-        "Icon/Meter",
-        "Tab Bar",
-        "Tab Item",
-        "Icon/Home",
-        "Icon/Chart",
-        "Icon/Document",
-        "Icon/User"
-      ],
-      "klickbar": [],
-      "fingerabdruck": "156a6d82cd702cf3",
-      "weiterZu": [],
-      "kommtVon": [],
-      "position": "1 von 2",
-      "flowScreens": [
-        "NZ-01 – Übersicht mit Nachzahlungs-Hinweis",
-        "NZ-02 – Nachzahlung erklärt"
-      ],
-      "ki": {
-        "kurzbeschreibung": "Übersichts-Screen der Energie-App mit aktuellem Verbrauch, Hinweis auf eine voraussichtliche Nachzahlung und dem nächsten Abschlag. Der Screen bündelt Statusinformationen und bietet Schnellzugriffe sowie die Navigation in andere App-Bereiche.",
-        "aenderung": "",
-        "stichworte": [
-          "Übersicht",
-          "Nachzahlung",
-          "Verbrauch",
-          "Abschlag",
-          "Smart Meter",
-          "Schnellzugriff",
-          "Tab Bar"
-        ],
-        "cx": {
-          "journey_moment": "Kundin sieht frühzeitig einen Hinweis auf eine mögliche Nachzahlung in der Übersicht.",
-          "kundenerlebnis": "Die Nutzerin bekommt auf einen Blick Verbrauchsdaten und einen klaren Hinweis, dass ihr aktueller Verbrauch vermutlich nicht durch die Abschläge gedeckt ist.",
-          "tonalitaet": "sachlich, informativ, leicht warnend",
-          "moegliche_reibungspunkte": [
-            "Der Hinweis auf Nachzahlung könnte verunsichern, wenn die Ursache zunächst unklar bleibt.",
-            "Die Formulierung „Tippe hier, um zu sehen, warum.“ setzt vermutlich Erklärung voraus, die erst im nächsten Screen kommt.",
-            "Der Status „Zu niedrig“ beim Abschlag könnte ohne Kontext erklärungsbedürftig sein."
-          ]
-        },
-        "re": {
-          "aktionen": [
-            "Hinweis zur Nachzahlung antippen",
-            "Anpassen beim Abschlag antippen",
-            "Schnellzugriff „Zählerstand“ öffnen",
-            "Schnellzugriff „Abschlag“ öffnen",
-            "Über die Tab Bar zu anderen Bereichen wechseln"
-          ],
-          "eingabefelder": [],
-          "zustaende_sichtbar": [
-            "Normalzustand",
-            "Hinweiszustand für voraussichtliche Nachzahlung",
-            "Quick-Action-Kacheln",
-            "aktive Tab-Bar-Ansicht Übersicht"
-          ],
-          "zustaende_fehlend": [
-            "Fehlerzustand bei fehlenden Verbrauchsdaten",
-            "Ladezustand",
-            "leerer Zustand für Schnellzugriffe",
-            "Zustand für nicht verfügbaren Smart-Meter-Wert"
-          ]
-        },
-        "ba": {
-          "angezeigte_daten": [
-            "Datum/Uhrzeit: Mittwoch, 4. November / 9:41",
-            "Begrüßung: Hallo, Alex",
-            "Verbrauch im November: 186 kWh",
-            "Abweichung: −8 % zum Vormonat",
-            "Messstand: Stand heute, 08:12 Uhr · Smart Meter",
-            "Prognose 2026: 2.140 kWh",
-            "Vorjahr: 2.310 kWh",
-            "Voraussichtlich ca. 96 € Nachzahlung",
-            "Nächster Abschlag: 78,00 €",
-            "Fälligkeit: am 15.11. · SEPA-Lastschrift",
-            "Status Abschlag: Zu niedrig"
-          ],
-          "vermutete_regeln": [
-            "Die Nachzahlung wird angezeigt, wenn der Verbrauch voraussichtlich höher ist als die Abschläge.",
-            "Der Abschlag wird als „Zu niedrig“ markiert, wenn er den erwarteten Verbrauch nicht ausreichend abdeckt.",
-            "Die Prognose vergleicht offenbar aktuellen Verbrauch mit Vorjahreswerten oder einer Jahreshochrechnung.",
-            "Der Hinweistext führt vermutlich zu einer Erklärung im nächsten Screen."
-          ]
-        },
-        "qa": {
-          "testfaelle": [
-            "Screen zeigt alle genannten Werte korrekt an.",
-            "Nachzahlungs-Hinweis wird mit Betrag und Erklärungstext dargestellt.",
-            "Der Abschlagsbereich zeigt Betrag, Fälligkeit und Status „Zu niedrig“.",
-            "Schnellzugriff-Kacheln sind sichtbar und eindeutig beschriftet.",
-            "Tab Bar markiert „Übersicht“ als aktiven Bereich.",
-            "Prüfen, ob die Anzeige bei fehlenden Smart-Meter-Daten sinnvoll ausfällt."
-          ]
-        },
-        "dev": {
-          "datenfelder": [
-            "currentDate",
-            "time",
-            "userName",
-            "currentConsumptionKwh",
-            "consumptionChangePercent",
-            "measurementTimestamp",
-            "meterSource",
-            "forecast2026Kwh",
-            "previousYearKwh",
-            "estimatedAdditionalPaymentEur",
-            "nextInstallmentAmountEur",
-            "nextInstallmentDueDate",
-            "paymentMethod",
-            "installmentStatus",
-            "quickActions",
-            "navigationTabs"
-          ],
-          "hinweise": [
-            "Die Werte sind offenbar aus mehreren Datenquellen kombiniert: Verbrauch, Prognose, Abschlag und Navigation.",
-            "Der Nachzahlungs-Hinweis benötigt vermutlich einen klickbaren Bereich, auch wenn im Figma keine klickbaren Elemente markiert sind.",
-            "Status/Label-Farben sollten dem Designsystem entsprechen.",
-            "Tab Bar und Schnellzugriffe sollten als separate, wiederverwendbare Komponenten umgesetzt werden."
-          ]
-        },
-        "analytics": {
-          "events": [
-            "view_uebersicht",
-            "tap_nachzahlungs_hinweis",
-            "tap_abschlag_anpassen",
-            "tap_schnellzugriff_zaehlerstand",
-            "tap_schnellzugriff_abschlag",
-            "tap_tab_uebersicht",
-            "tap_tab_verbrauch",
-            "tap_tab_zaehler",
-            "tap_tab_vertrag",
-            "tap_tab_profil"
-          ],
-          "funnel_position": "Einstieg in den Flow „Nachzahlung frühzeitig erkennen“"
-        },
-        "offene_fragen": [
-          "Ist der Nachzahlungs-Hinweis vollständig klickbar oder nur der Textbereich?",
-          "Was genau öffnet der Schnellzugriff „Abschlag“?",
-          "Wie wird der Status „Zu niedrig“ fachlich bestimmt?",
-          "Welche Zustände gelten, wenn kein Smart Meter vorhanden ist?"
-        ]
-      },
-      "bildSha": "0e013193512ca7905d9fbce5f962f9d5ce05ede6",
-      "zuletztGeaendert": "2026-11-11",
-      "letzteAenderung": "Screen neu angelegt."
-    },
-    "64:754": {
-      "id": "64:754",
-      "name": "NZ-02 – Nachzahlung erklärt",
-      "flow": "Feature: Nachzahlung frühzeitig erkennen",
-      "seite": "livePage",
-      "status": "beschlossen",
-      "pfad": "screens/feature-nachzahlung-fruehzeitig-erkennen/nz-02-nachzahlung-erklaert.md",
-      "bildPfad": "screens/feature-nachzahlung-fruehzeitig-erkennen/nz-02-nachzahlung-erklaert.png",
-      "link": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=64-754",
-      "devModeLink": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=64-754&m=dev",
-      "texte": [
-        "9:41",
-        "Nachzahlung verstehen",
-        "Erwartete Nachzahlung",
-        "96 €",
-        "mit der Jahresabrechnung im Dezember",
-        "Voraussichtlicher Saldo: –96 €",
-        "Warum zahlst du nach?",
-        "Seit Juni verbrauchst du rund 12 % mehr Strom als im Vorjahr. Deine monatlichen Abschläge von 78 € decken das nicht ab.",
-        "Bisher gezahlt",
-        "Jan – Nov 2026",
-        "858 €",
-        "Voraussichtliche Kosten",
-        "Prognose für 2026",
-        "954 €",
-        "Abschlag anpassen",
-        "Zurück"
-      ],
-      "komponenten": [
-        "Status Bar",
-        "Header/Detail",
-        "Icon Button",
-        "Icon/ChevronLeft",
-        "Badge",
-        "Icon/TrendDown",
-        "List Row",
-        "Icon/Calendar",
-        "Button"
-      ],
-      "klickbar": [],
-      "fingerabdruck": "8cc617af98888b64",
-      "weiterZu": [],
-      "kommtVon": [],
-      "position": "2 von 2",
-      "flowScreens": [
-        "NZ-01 – Übersicht mit Nachzahlungs-Hinweis",
-        "NZ-02 – Nachzahlung erklärt"
-      ],
-      "ki": {
-        "kurzbeschreibung": "Der Screen erklärt eine erwartete Nachzahlung und zeigt, warum der Saldo voraussichtlich negativ ist. Er bietet als nächste Aktion das Anpassen des Abschlags an.",
-        "aenderung": "",
-        "stichworte": [
-          "Nachzahlung",
-          "Saldo",
-          "Abschlag anpassen",
-          "Jahresabrechnung",
-          "Prognose",
-          "Stromverbrauch",
-          "Kostenübersicht",
-          "Warnhinweis"
-        ],
-        "cx": {
-          "journey_moment": "Kundin erkennt eine erwartete Nachzahlung vor der Jahresabrechnung",
-          "kundenerlebnis": "Die Kundin sieht den erwarteten Betrag, eine Erklärung für die Nachzahlung und einen Hinweis auf den Zusammenhang mit Verbrauch und Abschlag.",
-          "tonalitaet": "sachlich, erklärend, leicht warnend",
-          "moegliche_reibungspunkte": [
-            "Die Höhe von 96 € könnte ohne weitere Einordnung als unklar empfunden werden.",
-            "Die Formulierung zur Jahresabrechnung im Dezember ist vermutlich für manche Kundinnen erklärungsbedürftig.",
-            "Die Ursache der Nachzahlung basiert auf einer Prognose und könnte als unsicher wahrgenommen werden."
-          ]
-        },
-        "re": {
-          "aktionen": [
-            "Zurück navigieren",
-            "Abschlag anpassen"
-          ],
-          "eingabefelder": [],
-          "zustaende_sichtbar": [
-            "Normalzustand",
-            "Hinweis-/Erklärzustand",
-            "Zusammenfassungszustand mit Beträgen"
-          ],
-          "zustaende_fehlend": [
-            "Fehlerzustand",
-            "Ladezustand",
-            "Leerer Zustand",
-            "Abschlag-anpassen-Ergebniszustand"
-          ]
-        },
-        "ba": {
-          "angezeigte_daten": [
-            "Erwartete Nachzahlung: 96 €",
-            "Zeitbezug: mit der Jahresabrechnung im Dezember",
-            "Voraussichtlicher Saldo: –96 €",
-            "Begründung: seit Juni rund 12 % mehr Stromverbrauch als im Vorjahr",
-            "Monatlicher Abschlag: 78 €",
-            "Bisher gezahlt: 858 €",
-            "Zeitraum: Jan – Nov 2026",
-            "Voraussichtliche Kosten: 954 €",
-            "Prognose für 2026"
-          ],
-          "vermutete_regeln": [
-            "Wenn die voraussichtlichen Kosten über den bisher gezahlten Abschlägen liegen, wird eine Nachzahlung angezeigt.",
-            "Der Hinweistext erklärt vermutlich die Differenz zwischen Verbrauch, Abschlag und Prognose.",
-            "Der Call-to-Action führt vermutlich in einen Prozess zum Anpassen des Abschlags."
-          ]
-        },
-        "qa": {
-          "testfaelle": [
-            "Screen zeigt den Titel 'Nachzahlung verstehen'.",
-            "Betrag 96 € wird im Hauptbereich korrekt angezeigt.",
-            "Der negative Saldo wird mit Minuszeichen dargestellt.",
-            "Der Erklärungstext zum höheren Stromverbrauch wird vollständig angezeigt.",
-            "Die Werte in der Übersicht sind korrekt zugeordnet: 'Bisher gezahlt' und 'Voraussichtliche Kosten'.",
-            "Der Button 'Abschlag anpassen' ist sichtbar.",
-            "Der Textlink 'Zurück' ist sichtbar.",
-            "Das Chevron-Icon oben links führt vermutlich zurück."
-          ]
-        },
-        "dev": {
-          "datenfelder": [
-            "expectedDebtAmount",
-            "billingMonth",
-            "projectedBalance",
-            "reasonText",
-            "currentMonthlyInstallment",
-            "paidSoFar",
-            "periodLabel",
-            "projectedCosts",
-            "forecastYear"
-          ],
-          "hinweise": [
-            "Beträge und Prozentwert sollten aus dem Backend kommen und konsistent berechnet sein.",
-            "Negative Werte müssen mit Vorzeichen korrekt formatiert werden.",
-            "Die Karte mit der Erklärung und die Übersichtszeilen sind visuell getrennte Inhaltsbereiche.",
-            "Der obere Zurück-Button und der untere Text 'Zurück' wirken wie zwei Navigationsoptionen; Verhalten abstimmen."
-          ]
-        },
-        "analytics": {
-          "events": [
-            "screen_view_nachzahlung_verstehen",
-            "click_zurueck_oben",
-            "click_zurueck_unten",
-            "click_abschlag_anpassen"
-          ],
-          "funnel_position": "2 von 2 im Flow 'Feature: Nachzahlung frühzeitig erkennen'"
-        },
-        "offene_fragen": [
-          "Führt 'Abschlag anpassen' direkt in eine Anpassungsmaske oder erst in einen Zwischenschritt?",
-          "Was genau bedeutet 'mit der Jahresabrechnung im Dezember' im fachlichen Kontext?",
-          "Ist der Text 'Zurück' unten ein sekundärer Button oder nur ein Link?",
-          "Soll die Nachzahlung auch mit positiver/negativer Saldenlogik in anderen Fällen anders dargestellt werden?"
-        ]
-      },
-      "bildSha": "b25668e0592e15bd73014191f0441f65cb0d25fa",
-      "zuletztGeaendert": "2026-11-11",
-      "letzteAenderung": "Screen neu angelegt."
-    },
-    "64:877": {
-      "id": "64:877",
-      "name": "UM-01 – Vertrag mit Umzug-Einstieg",
-      "flow": "Feature: Umzug – Vertrag mitnehmen",
-      "seite": "livePage",
-      "status": "beschlossen",
-      "pfad": "screens/feature-umzug-vertrag-mitnehmen/um-01-vertrag-mit-umzug-einstieg.md",
-      "bildPfad": "screens/feature-umzug-vertrag-mitnehmen/um-01-vertrag-mit-umzug-einstieg.png",
-      "link": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=64-877",
-      "devModeLink": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=64-877&m=dev",
-      "texte": [
-        "9:41",
-        "Kundennr. 4012 •••• 78",
-        "Vertrag",
-        "Dein Tarif",
-        "Ökostrom Flex",
-        "100 % Ökostrom",
-        "Arbeitspreis",
-        "31,90 ct/kWh",
-        "Grundpreis",
-        "12,50 €/Monat",
-        "Laufzeit",
-        "monatlich kündbar",
-        "Tarife vergleichen",
-        "Dokumente",
-        "Alle anzeigen",
-        "Jahresabrechnung 2025",
-        "PDF · 12.02.2026",
-        "Neu",
-        "Abschlagsplan 2026",
-        "PDF · 20.02.2026",
-        "Lieferstelle",
-        "Musterstraße 12, 12345 Musterstadt",
-        "Ich ziehe um",
-        "Vertrag an deine neue Adresse mitnehmen",
-        "Übersicht",
-        "Verbrauch",
-        "Zähler",
-        "Profil"
-      ],
-      "komponenten": [
-        "Status Bar",
-        "Header/Main",
-        "Icon/Bolt",
-        "Badge",
-        "Button",
-        "List Row",
-        "Icon/Document",
-        "Icon/ChevronRight",
-        "Icon/MapPin",
-        "Tab Bar",
-        "Tab Item",
-        "Icon/Home",
-        "Icon/Chart",
-        "Icon/Meter",
-        "Icon/User"
-      ],
-      "klickbar": [],
-      "fingerabdruck": "235b95d02014be73",
-      "weiterZu": [],
-      "kommtVon": [],
-      "position": "1 von 2",
-      "flowScreens": [
-        "UM-01 – Vertrag mit Umzug-Einstieg",
-        "UM-02 – Umzug melden (WIP)"
-      ],
-      "ki": {
-        "kurzbeschreibung": "Übersichts-Screen zum aktiven Vertrag mit Tarifdetails, Dokumenten und Umzugs-Einstieg. Der Screen bietet außerdem den Einstieg zur Vertragsmitnahme bei Umzug.",
-        "aenderung": "",
-        "stichworte": [
-          "Vertrag",
-          "Tarif",
-          "Ökostrom Flex",
-          "Dokumente",
-          "Jahresabrechnung",
-          "Abschlagsplan",
-          "Lieferstelle",
-          "Umzug"
-        ],
-        "cx": {
-          "journey_moment": "Kundin sieht ihren aktuellen Vertrag und den Einstieg zum Umzug.",
-          "kundenerlebnis": "Die Kundin bekommt einen kompakten Überblick über Tarif, Vertragsdaten und relevante Dokumente. Der Umzugs-Einstieg ist direkt sichtbar.",
-          "tonalitaet": "sachlich, informativ, klar",
-          "moegliche_reibungspunkte": [
-            "„Ich ziehe um“ könnte ohne Erklärung nicht sofort eindeutig sein, obwohl der Untertitel den Kontext liefert.",
-            "„Alle anzeigen“ bei Dokumenten ist als Navigation klar, aber der Zielinhalt ist aus dem Screen nicht ersichtlich.",
-            "Die Badge „Neu“ bei der Jahresabrechnung könnte Erwartungen an etwas Ungewohntes wecken, obwohl kein Detail sichtbar ist."
-          ]
-        },
-        "re": {
-          "aktionen": [
-            "Tarife vergleichen öffnen",
-            "Alle Dokumente anzeigen",
-            "Jahresabrechnung 2025 öffnen",
-            "Abschlagsplan 2026 öffnen",
-            "Lieferstelle öffnen",
-            "Umzug melden / Vertrag an neue Adresse mitnehmen starten",
-            "über Tab Bar zu Übersicht, Verbrauch, Zähler oder Profil wechseln"
-          ],
-          "eingabefelder": [],
-          "zustaende_sichtbar": [
-            "Normalzustand",
-            "Badge-Zustand „Neu“ bei einem Dokument"
-          ],
-          "zustaende_fehlend": [
-            "Ladezustand",
-            "Fehlerzustand bei fehlenden Vertragsdaten",
-            "Empty State für keine Dokumente",
-            "Deaktivierter Zustand für nicht verfügbare Einträge"
-          ]
-        },
-        "ba": {
-          "angezeigte_daten": [
-            "Kundennr. 4012 •••• 78",
-            "Tarif: Ökostrom Flex",
-            "Leistung/Label: 100 % Ökostrom",
-            "Arbeitspreis: 31,90 ct/kWh",
-            "Grundpreis: 12,50 €/Monat",
-            "Laufzeit: monatlich kündbar",
-            "Dokument: Jahresabrechnung 2025, PDF · 12.02.2026, Badge „Neu“",
-            "Dokument: Abschlagsplan 2026, PDF · 20.02.2026",
-            "Lieferstelle: Musterstraße 12, 12345 Musterstadt"
-          ],
-          "vermutete_regeln": [
-            "Der Screen zeigt vermutlich die Vertragsübersicht für den aktuellen Vertrag.",
-            "„Ich ziehe um“ führt vermutlich in den Flow „Vertrag mit Umzug mitnehmen“.",
-            "Dokumente sind vermutlich als PDF verfügbar und einzeln aufrufbar.",
-            "Die Lieferstelle ist vermutlich die aktuell hinterlegte Vertragsadresse."
-          ]
-        },
-        "qa": {
-          "testfaelle": [
-            "Tarifdaten werden vollständig angezeigt.",
-            "Dokumente werden mit Titel, Dateityp und Datum angezeigt.",
-            "Badge „Neu“ wird nur beim markierten Dokument angezeigt.",
-            "„Alle anzeigen“ öffnet die Dokumentenübersicht.",
-            "„Ich ziehe um“ startet den Umzugs-Flow.",
-            "Tab Bar zeigt den aktiven Tab „Vertrag“."
-          ]
-        },
-        "dev": {
-          "datenfelder": [
-            "Kundennummer (maskiert dargestellt)",
-            "Tarifname",
-            "Ökostrom-Label/Prozentangabe",
-            "Arbeitspreis",
-            "Grundpreis",
-            "Laufzeit",
-            "Dokumentenliste mit Titel, Typ, Datum, Neu-Status",
-            "Lieferstellen-Adresse",
-            "Navigationsziel für Umzug-Einstieg"
-          ],
-          "hinweise": [
-            "List Rows mit Chevron deuten auf navigierbare Einträge hin.",
-            "Maskierung der Kundennummer im UI beachten.",
-            "Aktiver Tab in der Tab Bar ist „Vertrag“.",
-            "Mehrere Kartenbereiche: Tarif, Dokumente, Lieferstelle/Umzug."
-          ]
-        },
-        "analytics": {
-          "events": [
-            "klick_tarife_vergleichen",
-            "klick_dokument_alle_anzeigen",
-            "klick_dokument_jahresabrechnung",
-            "klick_dokument_abschlagsplan",
-            "klick_lieferstelle",
-            "klick_ich_ziehe_um",
-            "klick_tab_uebersicht",
-            "klick_tab_verbrauch",
-            "klick_tab_zaehler",
-            "klick_tab_vertrag",
-            "klick_tab_profil"
-          ],
-          "funnel_position": "Einstieg in den Flow „Umzug – Vertrag mitnehmen“ (Schritt 1 von 2)"
-        },
-        "offene_fragen": [
-          "Was genau öffnet „Tarife vergleichen“?",
-          "Ist „Lieferstelle“ nur Anzeige oder ebenfalls bearbeitbar?",
-          "Welche Inhalte kommen auf den Screen „UM-02 – Umzug melden“?",
-          "Was bedeutet die Badge „Neu“ fachlich genau?"
-        ]
-      },
-      "bildSha": "354df0f04e03308ee71590ed731d79da39612984",
-      "zuletztGeaendert": "2026-11-11",
-      "letzteAenderung": "Screen neu angelegt."
-    },
     "64:1013": {
       "id": "64:1013",
-      "name": "UM-02 – Umzug melden (WIP)",
+      "name": "UM-02 – Umzug melden",
       "flow": "Feature: Umzug – Vertrag mitnehmen",
       "seite": "livePage",
       "status": "beschlossen",
-      "pfad": "screens/feature-umzug-vertrag-mitnehmen/um-02-umzug-melden-wip.md",
-      "bildPfad": "screens/feature-umzug-vertrag-mitnehmen/um-02-umzug-melden-wip.png",
+      "pfad": "screens/feature-umzug-vertrag-mitnehmen/um-02-umzug-melden.md",
+      "bildPfad": "screens/feature-umzug-vertrag-mitnehmen/um-02-umzug-melden.png",
       "link": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=64-1013",
       "devModeLink": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=64-1013&m=dev",
       "texte": [
@@ -552,7 +17,6 @@
         "Umzug melden",
         "Nimm deinen Vertrag einfach mit",
         "Du ziehst um? Mit Yello bekommst du auch in deinem neuen Zuhause Strom – ohne neuen Vertrag.",
-        "TODO: Formular für neue Adresse & Umzugsdatum",
         "Weiter"
       ],
       "komponenten": [
@@ -564,89 +28,83 @@
         "Button"
       ],
       "klickbar": [],
-      "fingerabdruck": "90518e38ed3a3c9b",
+      "fingerabdruck": "5f8ff78859245715",
       "weiterZu": [],
       "kommtVon": [],
-      "position": "2 von 2",
+      "position": "2 von 3",
       "flowScreens": [
         "UM-01 – Vertrag mit Umzug-Einstieg",
-        "UM-02 – Umzug melden (WIP)"
+        "UM-02 – Umzug melden",
+        "UM-03 – Neue Adresse"
       ],
       "ki": {
-        "kurzbeschreibung": "Screen zum Melden eines Umzugs, damit der bestehende Vertrag in die neue Wohnung mitgenommen werden kann. Er zeigt eine kurze Erklärung und einen Platzhalter für ein noch offenes Formular zur neuen Adresse und zum Umzugsdatum.",
-        "aenderung": "",
+        "kurzbeschreibung": "Screen im Umzugs-Flow, der erklärt, dass der bestehende Vertrag beim Umzug mitgenommen werden kann. Er dient als kurzer Einstieg vor dem nächsten Schritt im Flow.",
+        "aenderung": "Der frühere Platzhalter für ein Formular („TODO: Formular für neue Adresse & Umzugsdatum“) ist entfernt. Der Screen zeigt jetzt nur noch die Erklärungskarte mit Icon sowie den Button „Weiter“.",
         "stichworte": [
-          "Umzug melden",
+          "Umzug",
           "Vertrag mitnehmen",
-          "neue Adresse",
-          "Umzugsdatum",
+          "Yello",
           "Weiter",
-          "Header",
-          "Button",
-          "WIP"
+          "Hinweisbox",
+          "Chevron zurück",
+          "Bestätigung"
         ],
         "cx": {
-          "journey_moment": "Kundin will einen Umzug melden und den Stromvertrag mitnehmen",
-          "kundenerlebnis": "Die Kundin sieht eine kurze Einleitung, dass sie auch im neuen Zuhause Strom von Yello bekommt. Danach erwartet sie das Formular für die Umzugsdaten.",
-          "tonalitaet": "sachlich, freundlich, beruhigend",
+          "journey_moment": "Kundin informiert sich im Umzugsprozess, bevor sie die neue Adresse eingibt.",
+          "kundenerlebnis": "Die Kundin bekommt eine kurze, positive Erklärung, dass der Vertrag bei einem Umzug weitergeführt werden kann.",
+          "tonalitaet": "sachlich, beruhigend, unterstützend",
           "moegliche_reibungspunkte": [
-            "Das eigentliche Formular ist noch nicht vorhanden, vermutlich ist der Screen unvollständig.",
-            "Unklar, welche Daten genau noch eingegeben werden müssen.",
-            "Der Weiter-Button ist sichtbar, aber ohne Formularwirkung vermutlich noch nicht sinnvoll nutzbar."
+            "vermutlich unklar, was nach „Weiter“ konkret passiert",
+            "vermutlich fehlt auf diesem Screen noch die Eingabe der Umzugsdaten",
+            "vermutlich kann die sehr reduzierte Seite ohne weitere Hinweise Orientierung vermissen lassen"
           ]
         },
         "re": {
           "aktionen": [
-            "Zurück über Pfeil-Icon",
+            "Zurück über den Pfeil links oben",
             "Weiter"
           ],
           "eingabefelder": [],
           "zustaende_sichtbar": [
-            "Normaler Screen",
-            "WIP/Platzhalter für fehlendes Formular"
+            "Normalzustand"
           ],
           "zustaende_fehlend": [
-            "Formular für neue Adresse",
-            "Eingabe für Umzugsdatum",
-            "Validierungsfehler",
-            "Disabled-Zustand für Weiter bei fehlenden Angaben"
+            "vermutlich Ladezustand",
+            "vermutlich Fehlerzustand",
+            "vermutlich deaktivierter Weiter-Button"
           ]
         },
         "ba": {
           "angezeigte_daten": [
-            "Titel: Umzug melden",
-            "Hinweistext: Nimm deinen Vertrag einfach mit",
-            "Erklärung: Du ziehst um? Mit Yello bekommst du auch in deinem neuen Zuhause Strom – ohne neuen Vertrag.",
-            "Platzhaltertext: TODO: Formular für neue Adresse & Umzugsdatum",
-            "Buttontext: Weiter"
+            "Schritttitel: „Umzug melden“",
+            "Headline: „Nimm deinen Vertrag einfach mit“",
+            "Erklärungstext zum Mitnehmen des Vertrags in die neue Wohnung",
+            "Flow-Position: 2 von 3"
           ],
           "vermutete_regeln": [
-            "Vermutlich führt der Screen im Flow zum nächsten Schritt der Umzugsmeldung.",
-            "Vermutlich wird hier die neue Adresse und das Umzugsdatum erfasst.",
-            "Vermutlich ist der Vertrag bestehend und soll ohne Neuvertrag in die neue Adresse übertragen werden."
+            "vermutlich ist dies ein Zwischenschritt im Umzugs-Flow",
+            "vermutlich führt „Weiter“ zum nächsten Schritt mit weiteren Umzugsdaten"
           ]
         },
         "qa": {
           "testfaelle": [
-            "Screen wird mit Titel, Erklärung und Weiter-Button korrekt dargestellt.",
-            "Zurück-Icon ist sichtbar und bedienbar.",
-            "Platzhalter für Formular ist sichtbar.",
-            "Weiter-Button ist sichtbar.",
-            "Prüfen, ob der Screen auch ohne Formularinhalt stabil dargestellt wird."
+            "Seite wird mit Titel, Hinweisbox und Button korrekt angezeigt",
+            "Zurück-Icon führt zum vorherigen Screen",
+            "Weiter-Button ist sichtbar und anklickbar",
+            "Textumbrüche und Layout funktionieren auf kleiner Bildschirmbreite"
           ]
         },
         "dev": {
           "datenfelder": [
-            "Neuer Titel/Screenname",
-            "Hinweistext",
-            "Info-/Intro-Text",
-            "Platzhaltertext für noch fehlendes Formular",
-            "Buttonlabel Weiter"
+            "Screen-Titel",
+            "Headline",
+            "Erklärungstext",
+            "Flow-Schritt/Progress-Info"
           ],
           "hinweise": [
             "Designsystem-Komponenten: Status Bar, Header/Detail, Icon Button, Icon/ChevronLeft, Icon/Check, Button",
-            "Der Screen ist als WIP markiert und enthält nur einen Platzhalter statt eines Formulars.",
-            "Keine klickbaren Elemente außer Zurück und Weiter in den Figma-Daten angegeben."
+            "keine Eingabefelder auf diesem Screen sichtbar",
+            "Weiter-Button am unteren Bildschirmrand platziert"
           ]
         },
         "analytics": {
@@ -654,179 +112,164 @@
             "klick_zurueck_umzug_melden",
             "klick_weiter_umzug_melden"
           ],
-          "funnel_position": "2 von 2 im Flow 'Umzug – Vertrag mitnehmen'"
+          "funnel_position": "2 von 3 im Umzug-Flow „Vertrag mitnehmen\""
         },
         "offene_fragen": [
-          "Welche Felder gehören ins Formular für neue Adresse und Umzugsdatum?",
-          "Welche Validierung ist für die Eingaben vorgesehen?",
-          "Wohin führt der Weiter-Button genau?",
-          "Ist der Weiter-Button ohne Eingaben aktiv oder deaktiviert?"
+          "Wohin führt „Weiter“ genau?",
+          "Soll auf diesem Screen bereits ein Fortschritt oder eine Schrittanzeige sichtbar sein?",
+          "Warum ist das Formular für neue Adresse und Umzugsdatum entfernt worden bzw. kommt es im nächsten Screen?"
         ]
       },
-      "bildSha": "4b83ac32fc47121973c8e57775529fc2f4eb4dde",
+      "bildSha": "d96dd6fda70239e4d1afc65bb80d8f1d4a3be250",
       "zuletztGeaendert": "2026-11-11",
-      "letzteAenderung": "Screen neu angelegt."
+      "letzteAenderung": "Der frühere Platzhalter für ein Formular („TODO: Formular für neue Adresse & Umzugsdatum“) ist entfernt. Der Screen zeigt jetzt nur noch die Erklärungskarte mit Icon sowie den Button „Weiter“."
     },
-    "64:1080": {
-      "id": "64:1080",
-      "name": "ZS-01 – Zählerstand erfassen",
-      "flow": "Feature: Zählerstand abgeben",
+    "68:977": {
+      "id": "68:977",
+      "name": "UM-03 – Neue Adresse",
+      "flow": "Feature: Umzug – Vertrag mitnehmen",
       "seite": "livePage",
       "status": "beschlossen",
-      "pfad": "screens/feature-zaehlerstand-abgeben/zs-01-zaehlerstand-erfassen.md",
-      "bildPfad": "screens/feature-zaehlerstand-abgeben/zs-01-zaehlerstand-erfassen.png",
-      "link": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=64-1080",
-      "devModeLink": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=64-1080&m=dev",
+      "pfad": "screens/feature-umzug-vertrag-mitnehmen/um-03-neue-adresse.md",
+      "bildPfad": "screens/feature-umzug-vertrag-mitnehmen/um-03-neue-adresse.png",
+      "link": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=68-977",
+      "devModeLink": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=68-977&m=dev",
       "texte": [
         "9:41",
-        "Zählerstand erfassen",
-        "Stromzähler",
-        "Zählernummer 1ESY 1160 •••• 42",
-        "Letzte Ablesung",
-        "12.08.2026",
-        "18.204 kWh",
-        "Zähler scannen",
-        "Die Kamera erkennt den Zählerstand automatisch.",
-        "oder manuell eingeben",
-        "Zählerstand",
-        "18.712",
-        "kWh",
-        "Plausibler Bereich: 18.400 – 19.100 kWh",
-        "Ablesedatum",
-        "04.11.2026",
-        "Heute",
-        "Dein Abschlag wird nach der Übermittlung automatisch geprüft.",
-        "Zählerstand übermitteln"
+        "Umzug melden",
+        "Neue Adresse",
+        "Wohin ziehst du und ab wann brauchst du dort Strom?",
+        "Straße und Hausnummer",
+        "Lindenallee 5",
+        "PLZ",
+        "50667",
+        "Ort",
+        "Köln",
+        "Umzugsdatum",
+        "01.02.2027",
+        "Kalender",
+        "Wir prüfen im nächsten Schritt, ob Yello an deiner neuen Adresse liefern kann.",
+        "Weiter"
       ],
       "komponenten": [
         "Status Bar",
         "Header/Detail",
         "Icon Button",
         "Icon/ChevronLeft",
-        "List Row",
-        "Icon/Meter",
-        "Icon/Calendar",
-        "Icon/Camera",
-        "Icon/ChevronRight",
         "Input Field",
         "Button"
       ],
       "klickbar": [],
-      "fingerabdruck": "2335a6075cabd922",
+      "fingerabdruck": "5e2e230f6d6e280a",
       "weiterZu": [],
       "kommtVon": [],
-      "position": "1 von 1",
+      "position": "3 von 3",
       "flowScreens": [
-        "ZS-01 – Zählerstand erfassen"
+        "UM-01 – Vertrag mit Umzug-Einstieg",
+        "UM-02 – Umzug melden",
+        "UM-03 – Neue Adresse"
       ],
       "ki": {
-        "kurzbeschreibung": "Screen zum Erfassen und Übermitteln eines Strom-Zählerstands. Die Nutzerin kann den Zählerstand offenbar scannen oder manuell eingeben und anschließend übermitteln.",
+        "kurzbeschreibung": "Screen zum Erfassen der neuen Adresse und des Umzugsdatums im Flow „Umzug – Vertrag mitnehmen“. Die Nutzerin kann die Zieladresse prüfen/ändern und anschließend mit „Weiter“ fortfahren.",
         "aenderung": "",
         "stichworte": [
-          "Zählerstand",
-          "Stromzähler",
-          "Ablesung",
-          "Zählernummer",
-          "Scan",
-          "manuelle Eingabe",
-          "Ablesedatum",
-          "Übermitteln"
+          "Umzug",
+          "Neue Adresse",
+          "Straße und Hausnummer",
+          "PLZ",
+          "Ort",
+          "Umzugsdatum",
+          "Kalender",
+          "Weiter"
         ],
         "cx": {
-          "journey_moment": "Kundin erfasst einen aktuellen Zählerstand zur Meldung an den Anbieter",
-          "kundenerlebnis": "Sie sieht die relevanten Zählerdetails, kann einen Wert erfassen und den Ablesetag angeben. Der Hinweis zum Abschlag signalisiert eine mögliche Folge nach der Übermittlung.",
-          "tonalitaet": "sachlich, unterstützend, eher beruhigend",
+          "journey_moment": "Kundin gibt die neue Adresse im Umzugsprozess an.",
+          "kundenerlebnis": "Die Kundin sieht ein Formular mit bereits eingetragenen Adressdaten und einem Umzugsdatum. Unten wird erklärt, dass im nächsten Schritt geprüft wird, ob Yello an der neuen Adresse liefern kann.",
+          "tonalitaet": "sachlich, ruhig, informierend",
           "moegliche_reibungspunkte": [
-            "Der Hinweis zum plausiblen Bereich könnte Unsicherheit auslösen, wenn der eingegebene Wert davon abweicht.",
-            "Die Rolle des Buttons „Zähler scannen“ ist vermutlich klar, aber es ist nicht sichtbar, was nach dem Antippen passiert.",
-            "Es ist nicht ersichtlich, ob das Ablesedatum editierbar ist oder automatisch gesetzt wird."
+            "vermutlich ist unklar, ob die Felder schon validiert sind oder noch bearbeitet werden müssen",
+            "vermutlich ist nicht sichtbar, was passiert, wenn Yello an der neuen Adresse nicht liefern kann",
+            "vermutlich ist nicht ersichtlich, ob das Umzugsdatum über den Kalender zwingend auswählbar ist"
           ]
         },
         "re": {
           "aktionen": [
-            "Zähler scannen",
-            "Zählerstand manuell eingeben",
-            "Ablesedatum auswählen",
-            "Zählerstand übermitteln"
+            "Adresseingaben prüfen oder ändern",
+            "Umzugsdatum erfassen oder ändern",
+            "Mit „Weiter“ fortfahren",
+            "Mit dem Zurück-Pfeil zum vorherigen Screen gehen"
           ],
           "eingabefelder": [
-            "Zählerstand: numerische Eingabe",
-            "Ablesedatum: Datumsauswahl"
+            "Straße und Hausnummer: Texteingabe",
+            "PLZ: Texteingabe",
+            "Ort: Texteingabe",
+            "Umzugsdatum: Datumsauswahl"
           ],
           "zustaende_sichtbar": [
-            "Normalzustand",
-            "Hinweis auf plausiblen Bereich"
+            "Normalzustand mit vorausgefüllten Feldern"
           ],
           "zustaende_fehlend": [
-            "Ladezustand",
-            "Fehlerzustand bei ungültigem Zählerstand",
-            "Validierungszustand bei außerhalb des plausiblen Bereichs",
-            "Erfolgs- oder Bestätigungszustand nach Übermittlung"
+            "Fehlerzustand bei ungültiger PLZ",
+            "Fehlerzustand bei ungültigem Datum",
+            "Leerer Zustand ohne vorausgefüllte Werte",
+            "Ladezustand für Adress-/Verfügbarkeitsprüfung"
           ]
         },
         "ba": {
           "angezeigte_daten": [
-            "Zählerart: Stromzähler",
-            "Zählernummer: 1ESY 1160 •••• 42",
-            "Letzte Ablesung: 12.08.2026",
-            "Letzter Zählerstand: 18.204 kWh",
-            "Aktueller Zählerstand: 18.712 kWh",
-            "Plausibler Bereich: 18.400 – 19.100 kWh",
-            "Ablesedatum: 04.11.2026"
+            "Straße und Hausnummer: Lindenallee 5",
+            "PLZ: 50667",
+            "Ort: Köln",
+            "Umzugsdatum: 01.02.2027",
+            "Hinweis: „Wir prüfen im nächsten Schritt, ob Yello an deiner neuen Adresse liefern kann.“"
           ],
           "vermutete_regeln": [
-            "Der eingegebene Zählerstand wird vermutlich gegen einen plausiblen Bereich geprüft.",
-            "Die Übermittlung prüft den Abschlag vermutlich automatisch nach dem Absenden.",
-            "Das Ablesedatum ist vermutlich auf „Heute“ beziehbar bzw. wird auf das aktuelle Datum gesetzt oder vorgeschlagen."
+            "vermutlich wird im nächsten Schritt die Lieferbarkeit an der neuen Adresse geprüft",
+            "vermutlich muss das Umzugsdatum in einem gültigen Format bzw. als auswählbares Datum vorliegen",
+            "vermutlich sind Straße, PLZ, Ort und Umzugsdatum Pflichtfelder"
           ]
         },
         "qa": {
           "testfaelle": [
-            "Zählerstand manuell mit Dezimal-/Tausenderformat prüfen",
-            "Zählerstand innerhalb des plausiblen Bereichs eingeben und übermitteln",
-            "Zählerstand außerhalb des plausiblen Bereichs eingeben und erwartete Reaktion prüfen",
-            "Ablesedatum öffnen und ein Datum auswählen",
-            "Zähler scannen antippen und Navigation/Verhalten prüfen",
-            "Übermitteln mit den sichtbaren Standardwerten auslösen"
+            "Seite wird mit allen vorausgefüllten Werten korrekt angezeigt",
+            "Zurück-Pfeil führt zum vorherigen Screen",
+            "„Weiter“ ist sichtbar und anklickbar",
+            "Datum kann über den Kalender geöffnet/geändert werden",
+            "Pflichtfelder reagieren bei leerem oder ungültigem Inhalt mit Fehlerzustand",
+            "Hinweistext wird vollständig angezeigt"
           ]
         },
         "dev": {
           "datenfelder": [
-            "zählerart",
-            "zählernummer",
-            "letzte_ablesung_datum",
-            "letzter_zaehlerstand",
-            "aktueller_zaehlerstand",
-            "einheit",
-            "plausibler_bereich_min",
-            "plausibler_bereich_max",
-            "ablesedatum"
+            "street",
+            "house_number",
+            "postal_code",
+            "city",
+            "move_in_date"
           ],
           "hinweise": [
-            "Zählernummer ist maskiert dargestellt.",
-            "Die Kamera-Funktion ist als eigener Einstieg vorhanden; das Zielverhalten ist aus dem Screen allein nicht ersichtlich.",
-            "Datum und Werte müssen im UI formatiert dargestellt werden.",
-            "Der Button „Zählerstand übermitteln“ ist als primäre Aktion zu behandeln."
+            "Input Fields und Button aus dem Designsystem verwenden",
+            "Kalender-Interaktion für das Datumsfeld vorsehen",
+            "Header mit Titel und Zurück-Icon umsetzen",
+            "Hinweistext unterhalb der Form und oberhalb des Primärbuttons platzieren"
           ]
         },
         "analytics": {
           "events": [
-            "klick_zaehler_scannen",
-            "klick_zaehlerstand_feld",
-            "klick_ablesedatum_feld",
-            "klick_zaehlerstand_uebermitteln"
+            "klick_zurueck_umzug_neue_adresse",
+            "klick_kalender_umzugsdatum",
+            "klick_weiter_umzug_neue_adresse"
           ],
-          "funnel_position": "Start- und einziges Formular-Element im Flow „Zählerstand abgeben“"
+          "funnel_position": "Schritt 3 von 3 im Flow „Umzug – Vertrag mitnehmen“"
         },
         "offene_fragen": [
-          "Was passiert nach „Zähler scannen“ konkret?",
-          "Ist das Ablesedatum frei wählbar oder nur vorgegeben?",
-          "Welche Validierung gilt genau für den Zählerstand?",
-          "Ist die Übermittlung nur bei gültigen Eingaben möglich?",
-          "Gibt es eine Bestätigung oder einen Erfolgszustand nach dem Absenden?"
+          "Ist die Bearbeitung der vorausgefüllten Adresse erlaubt oder sind die Werte nur angezeigt?",
+          "Was passiert, wenn Yello an der neuen Adresse nicht liefern kann?",
+          "Welche Validierungen gelten für PLZ, Ort und Umzugsdatum?",
+          "Öffnet der Text „Kalender“ direkt einen Datepicker oder ist es nur eine Feldbeschriftung?"
         ]
       },
-      "bildSha": "5cfc65cc200c08d74c5b3ff59d30bf1cd39a57d4",
+      "bildSha": "7197df29ae2e03905afe1fd3ac1b061f3ee78552",
       "zuletztGeaendert": "2026-11-11",
       "letzteAenderung": "Screen neu angelegt."
     },
@@ -1914,6 +1357,705 @@
       "zuletztGeaendert": "2026-11-04",
       "letzteAenderung": "Screen neu angelegt."
     },
+    "64:643": {
+      "id": "64:643",
+      "name": "NZ-01 – Übersicht mit Nachzahlungs-Hinweis",
+      "flow": "Feature: Nachzahlung frühzeitig erkennen",
+      "seite": "livePage",
+      "status": "beschlossen",
+      "pfad": "screens/feature-nachzahlung-fruehzeitig-erkennen/nz-01-uebersicht-mit-nachzahlungs-hinweis.md",
+      "bildPfad": "screens/feature-nachzahlung-fruehzeitig-erkennen/nz-01-uebersicht-mit-nachzahlungs-hinweis.png",
+      "link": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=64-643",
+      "devModeLink": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=64-643&m=dev",
+      "texte": [
+        "9:41",
+        "Mittwoch, 4. November",
+        "Hallo, Alex",
+        "Verbrauch im November",
+        "−8 % zum Vormonat",
+        "186",
+        "kWh",
+        "Stand heute, 08:12 Uhr · Smart Meter",
+        "Prognose 2026: 2.140 kWh",
+        "Vorjahr: 2.310 kWh",
+        "Voraussichtlich ca. 96 € Nachzahlung",
+        "Du verbrauchst mehr Strom als deine Abschläge abdecken. Tippe hier, um zu sehen, warum.",
+        "Nächster Abschlag",
+        "78,00 €",
+        "am 15.11. · SEPA-Lastschrift",
+        "Zu niedrig",
+        "Anpassen",
+        "Schnellzugriff",
+        "Zählerstand",
+        "Abschlag",
+        "Übersicht",
+        "Verbrauch",
+        "Zähler",
+        "Vertrag",
+        "Profil"
+      ],
+      "komponenten": [
+        "Status Bar",
+        "Header/Main",
+        "Icon Button",
+        "Icon/Bell",
+        "Badge",
+        "Icon/Info",
+        "Icon/Euro",
+        "Icon/ChevronRight",
+        "Quick Action",
+        "Icon/Meter",
+        "Tab Bar",
+        "Tab Item",
+        "Icon/Home",
+        "Icon/Chart",
+        "Icon/Document",
+        "Icon/User"
+      ],
+      "klickbar": [],
+      "fingerabdruck": "156a6d82cd702cf3",
+      "weiterZu": [],
+      "kommtVon": [],
+      "position": "1 von 2",
+      "flowScreens": [
+        "NZ-01 – Übersicht mit Nachzahlungs-Hinweis",
+        "NZ-02 – Nachzahlung erklärt"
+      ],
+      "ki": {
+        "kurzbeschreibung": "Übersichts-Screen der Energie-App mit aktuellem Verbrauch, Hinweis auf eine voraussichtliche Nachzahlung und dem nächsten Abschlag. Der Screen bündelt Statusinformationen und bietet Schnellzugriffe sowie die Navigation in andere App-Bereiche.",
+        "aenderung": "",
+        "stichworte": [
+          "Übersicht",
+          "Nachzahlung",
+          "Verbrauch",
+          "Abschlag",
+          "Smart Meter",
+          "Schnellzugriff",
+          "Tab Bar"
+        ],
+        "cx": {
+          "journey_moment": "Kundin sieht frühzeitig einen Hinweis auf eine mögliche Nachzahlung in der Übersicht.",
+          "kundenerlebnis": "Die Nutzerin bekommt auf einen Blick Verbrauchsdaten und einen klaren Hinweis, dass ihr aktueller Verbrauch vermutlich nicht durch die Abschläge gedeckt ist.",
+          "tonalitaet": "sachlich, informativ, leicht warnend",
+          "moegliche_reibungspunkte": [
+            "Der Hinweis auf Nachzahlung könnte verunsichern, wenn die Ursache zunächst unklar bleibt.",
+            "Die Formulierung „Tippe hier, um zu sehen, warum.“ setzt vermutlich Erklärung voraus, die erst im nächsten Screen kommt.",
+            "Der Status „Zu niedrig“ beim Abschlag könnte ohne Kontext erklärungsbedürftig sein."
+          ]
+        },
+        "re": {
+          "aktionen": [
+            "Hinweis zur Nachzahlung antippen",
+            "Anpassen beim Abschlag antippen",
+            "Schnellzugriff „Zählerstand“ öffnen",
+            "Schnellzugriff „Abschlag“ öffnen",
+            "Über die Tab Bar zu anderen Bereichen wechseln"
+          ],
+          "eingabefelder": [],
+          "zustaende_sichtbar": [
+            "Normalzustand",
+            "Hinweiszustand für voraussichtliche Nachzahlung",
+            "Quick-Action-Kacheln",
+            "aktive Tab-Bar-Ansicht Übersicht"
+          ],
+          "zustaende_fehlend": [
+            "Fehlerzustand bei fehlenden Verbrauchsdaten",
+            "Ladezustand",
+            "leerer Zustand für Schnellzugriffe",
+            "Zustand für nicht verfügbaren Smart-Meter-Wert"
+          ]
+        },
+        "ba": {
+          "angezeigte_daten": [
+            "Datum/Uhrzeit: Mittwoch, 4. November / 9:41",
+            "Begrüßung: Hallo, Alex",
+            "Verbrauch im November: 186 kWh",
+            "Abweichung: −8 % zum Vormonat",
+            "Messstand: Stand heute, 08:12 Uhr · Smart Meter",
+            "Prognose 2026: 2.140 kWh",
+            "Vorjahr: 2.310 kWh",
+            "Voraussichtlich ca. 96 € Nachzahlung",
+            "Nächster Abschlag: 78,00 €",
+            "Fälligkeit: am 15.11. · SEPA-Lastschrift",
+            "Status Abschlag: Zu niedrig"
+          ],
+          "vermutete_regeln": [
+            "Die Nachzahlung wird angezeigt, wenn der Verbrauch voraussichtlich höher ist als die Abschläge.",
+            "Der Abschlag wird als „Zu niedrig“ markiert, wenn er den erwarteten Verbrauch nicht ausreichend abdeckt.",
+            "Die Prognose vergleicht offenbar aktuellen Verbrauch mit Vorjahreswerten oder einer Jahreshochrechnung.",
+            "Der Hinweistext führt vermutlich zu einer Erklärung im nächsten Screen."
+          ]
+        },
+        "qa": {
+          "testfaelle": [
+            "Screen zeigt alle genannten Werte korrekt an.",
+            "Nachzahlungs-Hinweis wird mit Betrag und Erklärungstext dargestellt.",
+            "Der Abschlagsbereich zeigt Betrag, Fälligkeit und Status „Zu niedrig“.",
+            "Schnellzugriff-Kacheln sind sichtbar und eindeutig beschriftet.",
+            "Tab Bar markiert „Übersicht“ als aktiven Bereich.",
+            "Prüfen, ob die Anzeige bei fehlenden Smart-Meter-Daten sinnvoll ausfällt."
+          ]
+        },
+        "dev": {
+          "datenfelder": [
+            "currentDate",
+            "time",
+            "userName",
+            "currentConsumptionKwh",
+            "consumptionChangePercent",
+            "measurementTimestamp",
+            "meterSource",
+            "forecast2026Kwh",
+            "previousYearKwh",
+            "estimatedAdditionalPaymentEur",
+            "nextInstallmentAmountEur",
+            "nextInstallmentDueDate",
+            "paymentMethod",
+            "installmentStatus",
+            "quickActions",
+            "navigationTabs"
+          ],
+          "hinweise": [
+            "Die Werte sind offenbar aus mehreren Datenquellen kombiniert: Verbrauch, Prognose, Abschlag und Navigation.",
+            "Der Nachzahlungs-Hinweis benötigt vermutlich einen klickbaren Bereich, auch wenn im Figma keine klickbaren Elemente markiert sind.",
+            "Status/Label-Farben sollten dem Designsystem entsprechen.",
+            "Tab Bar und Schnellzugriffe sollten als separate, wiederverwendbare Komponenten umgesetzt werden."
+          ]
+        },
+        "analytics": {
+          "events": [
+            "view_uebersicht",
+            "tap_nachzahlungs_hinweis",
+            "tap_abschlag_anpassen",
+            "tap_schnellzugriff_zaehlerstand",
+            "tap_schnellzugriff_abschlag",
+            "tap_tab_uebersicht",
+            "tap_tab_verbrauch",
+            "tap_tab_zaehler",
+            "tap_tab_vertrag",
+            "tap_tab_profil"
+          ],
+          "funnel_position": "Einstieg in den Flow „Nachzahlung frühzeitig erkennen“"
+        },
+        "offene_fragen": [
+          "Ist der Nachzahlungs-Hinweis vollständig klickbar oder nur der Textbereich?",
+          "Was genau öffnet der Schnellzugriff „Abschlag“?",
+          "Wie wird der Status „Zu niedrig“ fachlich bestimmt?",
+          "Welche Zustände gelten, wenn kein Smart Meter vorhanden ist?"
+        ]
+      },
+      "bildSha": "0e013193512ca7905d9fbce5f962f9d5ce05ede6",
+      "zuletztGeaendert": "2026-11-11",
+      "letzteAenderung": "Screen neu angelegt."
+    },
+    "64:754": {
+      "id": "64:754",
+      "name": "NZ-02 – Nachzahlung erklärt",
+      "flow": "Feature: Nachzahlung frühzeitig erkennen",
+      "seite": "livePage",
+      "status": "beschlossen",
+      "pfad": "screens/feature-nachzahlung-fruehzeitig-erkennen/nz-02-nachzahlung-erklaert.md",
+      "bildPfad": "screens/feature-nachzahlung-fruehzeitig-erkennen/nz-02-nachzahlung-erklaert.png",
+      "link": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=64-754",
+      "devModeLink": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=64-754&m=dev",
+      "texte": [
+        "9:41",
+        "Nachzahlung verstehen",
+        "Erwartete Nachzahlung",
+        "96 €",
+        "mit der Jahresabrechnung im Dezember",
+        "Voraussichtlicher Saldo: –96 €",
+        "Warum zahlst du nach?",
+        "Seit Juni verbrauchst du rund 12 % mehr Strom als im Vorjahr. Deine monatlichen Abschläge von 78 € decken das nicht ab.",
+        "Bisher gezahlt",
+        "Jan – Nov 2026",
+        "858 €",
+        "Voraussichtliche Kosten",
+        "Prognose für 2026",
+        "954 €",
+        "Abschlag anpassen",
+        "Zurück"
+      ],
+      "komponenten": [
+        "Status Bar",
+        "Header/Detail",
+        "Icon Button",
+        "Icon/ChevronLeft",
+        "Badge",
+        "Icon/TrendDown",
+        "List Row",
+        "Icon/Calendar",
+        "Button"
+      ],
+      "klickbar": [],
+      "fingerabdruck": "8cc617af98888b64",
+      "weiterZu": [],
+      "kommtVon": [],
+      "position": "2 von 2",
+      "flowScreens": [
+        "NZ-01 – Übersicht mit Nachzahlungs-Hinweis",
+        "NZ-02 – Nachzahlung erklärt"
+      ],
+      "ki": {
+        "kurzbeschreibung": "Der Screen erklärt eine erwartete Nachzahlung und zeigt, warum der Saldo voraussichtlich negativ ist. Er bietet als nächste Aktion das Anpassen des Abschlags an.",
+        "aenderung": "",
+        "stichworte": [
+          "Nachzahlung",
+          "Saldo",
+          "Abschlag anpassen",
+          "Jahresabrechnung",
+          "Prognose",
+          "Stromverbrauch",
+          "Kostenübersicht",
+          "Warnhinweis"
+        ],
+        "cx": {
+          "journey_moment": "Kundin erkennt eine erwartete Nachzahlung vor der Jahresabrechnung",
+          "kundenerlebnis": "Die Kundin sieht den erwarteten Betrag, eine Erklärung für die Nachzahlung und einen Hinweis auf den Zusammenhang mit Verbrauch und Abschlag.",
+          "tonalitaet": "sachlich, erklärend, leicht warnend",
+          "moegliche_reibungspunkte": [
+            "Die Höhe von 96 € könnte ohne weitere Einordnung als unklar empfunden werden.",
+            "Die Formulierung zur Jahresabrechnung im Dezember ist vermutlich für manche Kundinnen erklärungsbedürftig.",
+            "Die Ursache der Nachzahlung basiert auf einer Prognose und könnte als unsicher wahrgenommen werden."
+          ]
+        },
+        "re": {
+          "aktionen": [
+            "Zurück navigieren",
+            "Abschlag anpassen"
+          ],
+          "eingabefelder": [],
+          "zustaende_sichtbar": [
+            "Normalzustand",
+            "Hinweis-/Erklärzustand",
+            "Zusammenfassungszustand mit Beträgen"
+          ],
+          "zustaende_fehlend": [
+            "Fehlerzustand",
+            "Ladezustand",
+            "Leerer Zustand",
+            "Abschlag-anpassen-Ergebniszustand"
+          ]
+        },
+        "ba": {
+          "angezeigte_daten": [
+            "Erwartete Nachzahlung: 96 €",
+            "Zeitbezug: mit der Jahresabrechnung im Dezember",
+            "Voraussichtlicher Saldo: –96 €",
+            "Begründung: seit Juni rund 12 % mehr Stromverbrauch als im Vorjahr",
+            "Monatlicher Abschlag: 78 €",
+            "Bisher gezahlt: 858 €",
+            "Zeitraum: Jan – Nov 2026",
+            "Voraussichtliche Kosten: 954 €",
+            "Prognose für 2026"
+          ],
+          "vermutete_regeln": [
+            "Wenn die voraussichtlichen Kosten über den bisher gezahlten Abschlägen liegen, wird eine Nachzahlung angezeigt.",
+            "Der Hinweistext erklärt vermutlich die Differenz zwischen Verbrauch, Abschlag und Prognose.",
+            "Der Call-to-Action führt vermutlich in einen Prozess zum Anpassen des Abschlags."
+          ]
+        },
+        "qa": {
+          "testfaelle": [
+            "Screen zeigt den Titel 'Nachzahlung verstehen'.",
+            "Betrag 96 € wird im Hauptbereich korrekt angezeigt.",
+            "Der negative Saldo wird mit Minuszeichen dargestellt.",
+            "Der Erklärungstext zum höheren Stromverbrauch wird vollständig angezeigt.",
+            "Die Werte in der Übersicht sind korrekt zugeordnet: 'Bisher gezahlt' und 'Voraussichtliche Kosten'.",
+            "Der Button 'Abschlag anpassen' ist sichtbar.",
+            "Der Textlink 'Zurück' ist sichtbar.",
+            "Das Chevron-Icon oben links führt vermutlich zurück."
+          ]
+        },
+        "dev": {
+          "datenfelder": [
+            "expectedDebtAmount",
+            "billingMonth",
+            "projectedBalance",
+            "reasonText",
+            "currentMonthlyInstallment",
+            "paidSoFar",
+            "periodLabel",
+            "projectedCosts",
+            "forecastYear"
+          ],
+          "hinweise": [
+            "Beträge und Prozentwert sollten aus dem Backend kommen und konsistent berechnet sein.",
+            "Negative Werte müssen mit Vorzeichen korrekt formatiert werden.",
+            "Die Karte mit der Erklärung und die Übersichtszeilen sind visuell getrennte Inhaltsbereiche.",
+            "Der obere Zurück-Button und der untere Text 'Zurück' wirken wie zwei Navigationsoptionen; Verhalten abstimmen."
+          ]
+        },
+        "analytics": {
+          "events": [
+            "screen_view_nachzahlung_verstehen",
+            "click_zurueck_oben",
+            "click_zurueck_unten",
+            "click_abschlag_anpassen"
+          ],
+          "funnel_position": "2 von 2 im Flow 'Feature: Nachzahlung frühzeitig erkennen'"
+        },
+        "offene_fragen": [
+          "Führt 'Abschlag anpassen' direkt in eine Anpassungsmaske oder erst in einen Zwischenschritt?",
+          "Was genau bedeutet 'mit der Jahresabrechnung im Dezember' im fachlichen Kontext?",
+          "Ist der Text 'Zurück' unten ein sekundärer Button oder nur ein Link?",
+          "Soll die Nachzahlung auch mit positiver/negativer Saldenlogik in anderen Fällen anders dargestellt werden?"
+        ]
+      },
+      "bildSha": "b25668e0592e15bd73014191f0441f65cb0d25fa",
+      "zuletztGeaendert": "2026-11-11",
+      "letzteAenderung": "Screen neu angelegt."
+    },
+    "64:877": {
+      "id": "64:877",
+      "name": "UM-01 – Vertrag mit Umzug-Einstieg",
+      "flow": "Feature: Umzug – Vertrag mitnehmen",
+      "seite": "livePage",
+      "status": "beschlossen",
+      "pfad": "screens/feature-umzug-vertrag-mitnehmen/um-01-vertrag-mit-umzug-einstieg.md",
+      "bildPfad": "screens/feature-umzug-vertrag-mitnehmen/um-01-vertrag-mit-umzug-einstieg.png",
+      "link": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=64-877",
+      "devModeLink": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=64-877&m=dev",
+      "texte": [
+        "9:41",
+        "Kundennr. 4012 •••• 78",
+        "Vertrag",
+        "Dein Tarif",
+        "Ökostrom Flex",
+        "100 % Ökostrom",
+        "Arbeitspreis",
+        "31,90 ct/kWh",
+        "Grundpreis",
+        "12,50 €/Monat",
+        "Laufzeit",
+        "monatlich kündbar",
+        "Tarife vergleichen",
+        "Dokumente",
+        "Alle anzeigen",
+        "Jahresabrechnung 2025",
+        "PDF · 12.02.2026",
+        "Neu",
+        "Abschlagsplan 2026",
+        "PDF · 20.02.2026",
+        "Lieferstelle",
+        "Musterstraße 12, 12345 Musterstadt",
+        "Ich ziehe um",
+        "Vertrag an deine neue Adresse mitnehmen",
+        "Übersicht",
+        "Verbrauch",
+        "Zähler",
+        "Profil"
+      ],
+      "komponenten": [
+        "Status Bar",
+        "Header/Main",
+        "Icon/Bolt",
+        "Badge",
+        "Button",
+        "List Row",
+        "Icon/Document",
+        "Icon/ChevronRight",
+        "Icon/MapPin",
+        "Tab Bar",
+        "Tab Item",
+        "Icon/Home",
+        "Icon/Chart",
+        "Icon/Meter",
+        "Icon/User"
+      ],
+      "klickbar": [],
+      "fingerabdruck": "235b95d02014be73",
+      "weiterZu": [],
+      "kommtVon": [],
+      "position": "1 von 3",
+      "flowScreens": [
+        "UM-01 – Vertrag mit Umzug-Einstieg",
+        "UM-02 – Umzug melden",
+        "UM-03 – Neue Adresse"
+      ],
+      "ki": {
+        "kurzbeschreibung": "Übersichts-Screen zum aktiven Vertrag mit Tarifdetails, Dokumenten und Umzugs-Einstieg. Der Screen bietet außerdem den Einstieg zur Vertragsmitnahme bei Umzug.",
+        "aenderung": "",
+        "stichworte": [
+          "Vertrag",
+          "Tarif",
+          "Ökostrom Flex",
+          "Dokumente",
+          "Jahresabrechnung",
+          "Abschlagsplan",
+          "Lieferstelle",
+          "Umzug"
+        ],
+        "cx": {
+          "journey_moment": "Kundin sieht ihren aktuellen Vertrag und den Einstieg zum Umzug.",
+          "kundenerlebnis": "Die Kundin bekommt einen kompakten Überblick über Tarif, Vertragsdaten und relevante Dokumente. Der Umzugs-Einstieg ist direkt sichtbar.",
+          "tonalitaet": "sachlich, informativ, klar",
+          "moegliche_reibungspunkte": [
+            "„Ich ziehe um“ könnte ohne Erklärung nicht sofort eindeutig sein, obwohl der Untertitel den Kontext liefert.",
+            "„Alle anzeigen“ bei Dokumenten ist als Navigation klar, aber der Zielinhalt ist aus dem Screen nicht ersichtlich.",
+            "Die Badge „Neu“ bei der Jahresabrechnung könnte Erwartungen an etwas Ungewohntes wecken, obwohl kein Detail sichtbar ist."
+          ]
+        },
+        "re": {
+          "aktionen": [
+            "Tarife vergleichen öffnen",
+            "Alle Dokumente anzeigen",
+            "Jahresabrechnung 2025 öffnen",
+            "Abschlagsplan 2026 öffnen",
+            "Lieferstelle öffnen",
+            "Umzug melden / Vertrag an neue Adresse mitnehmen starten",
+            "über Tab Bar zu Übersicht, Verbrauch, Zähler oder Profil wechseln"
+          ],
+          "eingabefelder": [],
+          "zustaende_sichtbar": [
+            "Normalzustand",
+            "Badge-Zustand „Neu“ bei einem Dokument"
+          ],
+          "zustaende_fehlend": [
+            "Ladezustand",
+            "Fehlerzustand bei fehlenden Vertragsdaten",
+            "Empty State für keine Dokumente",
+            "Deaktivierter Zustand für nicht verfügbare Einträge"
+          ]
+        },
+        "ba": {
+          "angezeigte_daten": [
+            "Kundennr. 4012 •••• 78",
+            "Tarif: Ökostrom Flex",
+            "Leistung/Label: 100 % Ökostrom",
+            "Arbeitspreis: 31,90 ct/kWh",
+            "Grundpreis: 12,50 €/Monat",
+            "Laufzeit: monatlich kündbar",
+            "Dokument: Jahresabrechnung 2025, PDF · 12.02.2026, Badge „Neu“",
+            "Dokument: Abschlagsplan 2026, PDF · 20.02.2026",
+            "Lieferstelle: Musterstraße 12, 12345 Musterstadt"
+          ],
+          "vermutete_regeln": [
+            "Der Screen zeigt vermutlich die Vertragsübersicht für den aktuellen Vertrag.",
+            "„Ich ziehe um“ führt vermutlich in den Flow „Vertrag mit Umzug mitnehmen“.",
+            "Dokumente sind vermutlich als PDF verfügbar und einzeln aufrufbar.",
+            "Die Lieferstelle ist vermutlich die aktuell hinterlegte Vertragsadresse."
+          ]
+        },
+        "qa": {
+          "testfaelle": [
+            "Tarifdaten werden vollständig angezeigt.",
+            "Dokumente werden mit Titel, Dateityp und Datum angezeigt.",
+            "Badge „Neu“ wird nur beim markierten Dokument angezeigt.",
+            "„Alle anzeigen“ öffnet die Dokumentenübersicht.",
+            "„Ich ziehe um“ startet den Umzugs-Flow.",
+            "Tab Bar zeigt den aktiven Tab „Vertrag“."
+          ]
+        },
+        "dev": {
+          "datenfelder": [
+            "Kundennummer (maskiert dargestellt)",
+            "Tarifname",
+            "Ökostrom-Label/Prozentangabe",
+            "Arbeitspreis",
+            "Grundpreis",
+            "Laufzeit",
+            "Dokumentenliste mit Titel, Typ, Datum, Neu-Status",
+            "Lieferstellen-Adresse",
+            "Navigationsziel für Umzug-Einstieg"
+          ],
+          "hinweise": [
+            "List Rows mit Chevron deuten auf navigierbare Einträge hin.",
+            "Maskierung der Kundennummer im UI beachten.",
+            "Aktiver Tab in der Tab Bar ist „Vertrag“.",
+            "Mehrere Kartenbereiche: Tarif, Dokumente, Lieferstelle/Umzug."
+          ]
+        },
+        "analytics": {
+          "events": [
+            "klick_tarife_vergleichen",
+            "klick_dokument_alle_anzeigen",
+            "klick_dokument_jahresabrechnung",
+            "klick_dokument_abschlagsplan",
+            "klick_lieferstelle",
+            "klick_ich_ziehe_um",
+            "klick_tab_uebersicht",
+            "klick_tab_verbrauch",
+            "klick_tab_zaehler",
+            "klick_tab_vertrag",
+            "klick_tab_profil"
+          ],
+          "funnel_position": "Einstieg in den Flow „Umzug – Vertrag mitnehmen“ (Schritt 1 von 2)"
+        },
+        "offene_fragen": [
+          "Was genau öffnet „Tarife vergleichen“?",
+          "Ist „Lieferstelle“ nur Anzeige oder ebenfalls bearbeitbar?",
+          "Welche Inhalte kommen auf den Screen „UM-02 – Umzug melden“?",
+          "Was bedeutet die Badge „Neu“ fachlich genau?"
+        ]
+      },
+      "bildSha": "354df0f04e03308ee71590ed731d79da39612984",
+      "zuletztGeaendert": "2026-11-11",
+      "letzteAenderung": "Screen neu angelegt."
+    },
+    "64:1080": {
+      "id": "64:1080",
+      "name": "ZS-01 – Zählerstand erfassen",
+      "flow": "Feature: Zählerstand abgeben",
+      "seite": "livePage",
+      "status": "beschlossen",
+      "pfad": "screens/feature-zaehlerstand-abgeben/zs-01-zaehlerstand-erfassen.md",
+      "bildPfad": "screens/feature-zaehlerstand-abgeben/zs-01-zaehlerstand-erfassen.png",
+      "link": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=64-1080",
+      "devModeLink": "https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=64-1080&m=dev",
+      "texte": [
+        "9:41",
+        "Zählerstand erfassen",
+        "Stromzähler",
+        "Zählernummer 1ESY 1160 •••• 42",
+        "Letzte Ablesung",
+        "12.08.2026",
+        "18.204 kWh",
+        "Zähler scannen",
+        "Die Kamera erkennt den Zählerstand automatisch.",
+        "oder manuell eingeben",
+        "Zählerstand",
+        "18.712",
+        "kWh",
+        "Plausibler Bereich: 18.400 – 19.100 kWh",
+        "Ablesedatum",
+        "04.11.2026",
+        "Heute",
+        "Dein Abschlag wird nach der Übermittlung automatisch geprüft.",
+        "Zählerstand übermitteln"
+      ],
+      "komponenten": [
+        "Status Bar",
+        "Header/Detail",
+        "Icon Button",
+        "Icon/ChevronLeft",
+        "List Row",
+        "Icon/Meter",
+        "Icon/Calendar",
+        "Icon/Camera",
+        "Icon/ChevronRight",
+        "Input Field",
+        "Button"
+      ],
+      "klickbar": [],
+      "fingerabdruck": "2335a6075cabd922",
+      "weiterZu": [],
+      "kommtVon": [],
+      "position": "1 von 1",
+      "flowScreens": [
+        "ZS-01 – Zählerstand erfassen"
+      ],
+      "ki": {
+        "kurzbeschreibung": "Screen zum Erfassen und Übermitteln eines Strom-Zählerstands. Die Nutzerin kann den Zählerstand offenbar scannen oder manuell eingeben und anschließend übermitteln.",
+        "aenderung": "",
+        "stichworte": [
+          "Zählerstand",
+          "Stromzähler",
+          "Ablesung",
+          "Zählernummer",
+          "Scan",
+          "manuelle Eingabe",
+          "Ablesedatum",
+          "Übermitteln"
+        ],
+        "cx": {
+          "journey_moment": "Kundin erfasst einen aktuellen Zählerstand zur Meldung an den Anbieter",
+          "kundenerlebnis": "Sie sieht die relevanten Zählerdetails, kann einen Wert erfassen und den Ablesetag angeben. Der Hinweis zum Abschlag signalisiert eine mögliche Folge nach der Übermittlung.",
+          "tonalitaet": "sachlich, unterstützend, eher beruhigend",
+          "moegliche_reibungspunkte": [
+            "Der Hinweis zum plausiblen Bereich könnte Unsicherheit auslösen, wenn der eingegebene Wert davon abweicht.",
+            "Die Rolle des Buttons „Zähler scannen“ ist vermutlich klar, aber es ist nicht sichtbar, was nach dem Antippen passiert.",
+            "Es ist nicht ersichtlich, ob das Ablesedatum editierbar ist oder automatisch gesetzt wird."
+          ]
+        },
+        "re": {
+          "aktionen": [
+            "Zähler scannen",
+            "Zählerstand manuell eingeben",
+            "Ablesedatum auswählen",
+            "Zählerstand übermitteln"
+          ],
+          "eingabefelder": [
+            "Zählerstand: numerische Eingabe",
+            "Ablesedatum: Datumsauswahl"
+          ],
+          "zustaende_sichtbar": [
+            "Normalzustand",
+            "Hinweis auf plausiblen Bereich"
+          ],
+          "zustaende_fehlend": [
+            "Ladezustand",
+            "Fehlerzustand bei ungültigem Zählerstand",
+            "Validierungszustand bei außerhalb des plausiblen Bereichs",
+            "Erfolgs- oder Bestätigungszustand nach Übermittlung"
+          ]
+        },
+        "ba": {
+          "angezeigte_daten": [
+            "Zählerart: Stromzähler",
+            "Zählernummer: 1ESY 1160 •••• 42",
+            "Letzte Ablesung: 12.08.2026",
+            "Letzter Zählerstand: 18.204 kWh",
+            "Aktueller Zählerstand: 18.712 kWh",
+            "Plausibler Bereich: 18.400 – 19.100 kWh",
+            "Ablesedatum: 04.11.2026"
+          ],
+          "vermutete_regeln": [
+            "Der eingegebene Zählerstand wird vermutlich gegen einen plausiblen Bereich geprüft.",
+            "Die Übermittlung prüft den Abschlag vermutlich automatisch nach dem Absenden.",
+            "Das Ablesedatum ist vermutlich auf „Heute“ beziehbar bzw. wird auf das aktuelle Datum gesetzt oder vorgeschlagen."
+          ]
+        },
+        "qa": {
+          "testfaelle": [
+            "Zählerstand manuell mit Dezimal-/Tausenderformat prüfen",
+            "Zählerstand innerhalb des plausiblen Bereichs eingeben und übermitteln",
+            "Zählerstand außerhalb des plausiblen Bereichs eingeben und erwartete Reaktion prüfen",
+            "Ablesedatum öffnen und ein Datum auswählen",
+            "Zähler scannen antippen und Navigation/Verhalten prüfen",
+            "Übermitteln mit den sichtbaren Standardwerten auslösen"
+          ]
+        },
+        "dev": {
+          "datenfelder": [
+            "zählerart",
+            "zählernummer",
+            "letzte_ablesung_datum",
+            "letzter_zaehlerstand",
+            "aktueller_zaehlerstand",
+            "einheit",
+            "plausibler_bereich_min",
+            "plausibler_bereich_max",
+            "ablesedatum"
+          ],
+          "hinweise": [
+            "Zählernummer ist maskiert dargestellt.",
+            "Die Kamera-Funktion ist als eigener Einstieg vorhanden; das Zielverhalten ist aus dem Screen allein nicht ersichtlich.",
+            "Datum und Werte müssen im UI formatiert dargestellt werden.",
+            "Der Button „Zählerstand übermitteln“ ist als primäre Aktion zu behandeln."
+          ]
+        },
+        "analytics": {
+          "events": [
+            "klick_zaehler_scannen",
+            "klick_zaehlerstand_feld",
+            "klick_ablesedatum_feld",
+            "klick_zaehlerstand_uebermitteln"
+          ],
+          "funnel_position": "Start- und einziges Formular-Element im Flow „Zählerstand abgeben“"
+        },
+        "offene_fragen": [
+          "Was passiert nach „Zähler scannen“ konkret?",
+          "Ist das Ablesedatum frei wählbar oder nur vorgegeben?",
+          "Welche Validierung gilt genau für den Zählerstand?",
+          "Ist die Übermittlung nur bei gültigen Eingaben möglich?",
+          "Gibt es eine Bestätigung oder einen Erfolgszustand nach dem Absenden?"
+        ]
+      },
+      "bildSha": "5cfc65cc200c08d74c5b3ff59d30bf1cd39a57d4",
+      "zuletztGeaendert": "2026-11-11",
+      "letzteAenderung": "Screen neu angelegt."
+    },
     "20:1258": {
       "id": "20:1258",
       "name": "Frame 1",
@@ -2001,6 +2143,18 @@
     }
   },
   "verlauf": [
+    {
+      "datum": "2026-11-11",
+      "screen": "UM-03 – Neue Adresse",
+      "pfad": "screens/feature-umzug-vertrag-mitnehmen/um-03-neue-adresse.md",
+      "aenderung": "Screen neu angelegt."
+    },
+    {
+      "datum": "2026-11-11",
+      "screen": "UM-02 – Umzug melden",
+      "pfad": "screens/feature-umzug-vertrag-mitnehmen/um-02-umzug-melden.md",
+      "aenderung": "Der frühere Platzhalter für ein Formular („TODO: Formular für neue Adresse & Umzugsdatum“) ist entfernt. Der Screen zeigt jetzt nur noch die Erklärungskarte mit Icon sowie den Button „Weiter“."
+    },
     {
       "datum": "2026-11-11",
       "screen": "Frame 1",

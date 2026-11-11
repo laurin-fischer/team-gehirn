@@ -3,7 +3,7 @@ id: "64:877"
 name: "UM-01 – Vertrag mit Umzug-Einstieg"
 flow: "Feature: Umzug – Vertrag mitnehmen"
 status: beschlossen
-position_im_flow: "1 von 2"
+position_im_flow: "1 von 3"
 kommt_von: []
 fuehrt_zu: []
 stichworte: ["Vertrag", "Tarif", "Ökostrom Flex", "Dokumente", "Jahresabrechnung", "Abschlagsplan", "Lieferstelle", "Umzug"]
@@ -183,8 +183,8 @@ Screen neu angelegt.
 | | |
 |---|---|
 | **Status** | beschlossen |
-| **Flow** | Feature: Umzug – Vertrag mitnehmen (Screen 1 von 2) |
-| **Alle Screens im Flow** | UM-01 – Vertrag mit Umzug-Einstieg → UM-02 – Umzug melden (WIP) |
+| **Flow** | Feature: Umzug – Vertrag mitnehmen (Screen 1 von 3) |
+| **Alle Screens im Flow** | UM-01 – Vertrag mit Umzug-Einstieg → UM-02 – Umzug melden → UM-03 – Neue Adresse |
 | **Zuletzt geändert** | 2026-11-11 |
 | **Figma** | [Screen öffnen](https://www.figma.com/design/NpRSQ1rdXPvYjjxzDiTjBC?node-id=64-877) |
 
